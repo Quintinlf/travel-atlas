@@ -1,0 +1,558 @@
+{
+  "travelers": 2,
+  "room_preference": "2 queen beds, 1 room",
+  "bed_types": [
+    "queen"
+  ],
+  "windows": {
+    "3-night": {
+      "arrive": "2026-09-26",
+      "leave": "2026-09-29",
+      "flights": {
+        "ok": true,
+        "fare_source": null,
+        "message": "No cached Aviasales fares for this route \u2014 open Kayak or Google Flights for live 2-adult quotes. September benchmarks are often ~$379\u2013415 per adult (~$758\u2013830 for 2).",
+        "adults": 2,
+        "links": {
+          "aviasales": "https://www.aviasales.com/search/LAX260926FAI2909262?marker=770096",
+          "google_flights": "https://www.google.com/travel/flights?q=Round+trip+flights+from+LAX+to+FAI+2026-09-26+to+2026-09-29+2+adults",
+          "kayak": "https://www.kayak.com/flights/LAX-FAI/2026-09-26/2026-09-29/2adults?sort=bestflight_a"
+        },
+        "fares": [],
+        "cheapest": null
+      },
+      "hotels": {
+        "ok": true,
+        "message": "Nuitee / LiteAPI hotel rates.",
+        "query": {
+          "center": {
+            "lat": 64.8378,
+            "lon": -147.7164
+          },
+          "radius_km": 20.0,
+          "check_in": "2026-09-26",
+          "check_out": "2026-09-29",
+          "adults": 2,
+          "bed_types": [
+            "queen"
+          ],
+          "bed_verify": false,
+          "currency": "USD",
+          "city": "Fairbanks, Alaska",
+          "provider": "nuitee-hotel-v1",
+          "context_pins": {
+            "calton_hill": {
+              "lat": 55.9549,
+              "lon": -3.1824
+            },
+            "david_hume": {
+              "lat": 55.9497,
+              "lon": -3.1906
+            },
+            "national_museum": {
+              "lat": 55.947,
+              "lon": -3.1898
+            },
+            "arthurs_seat": {
+              "lat": 55.9442,
+              "lon": -3.1618
+            }
+          }
+        },
+        "area_links": {
+          "booking": "https://www.booking.com/searchresults.html?ss=Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-29&group_adults=2",
+          "expedia": "https://www.expedia.com/Hotel-Search?destination=Fairbanks%2C+Alaska",
+          "hotels_com": "https://www.hotels.com/Hotel-Search?destination=Fairbanks%2C+Alaska",
+          "airbnb": "https://www.airbnb.com/s/Fairbanks%2C+Alaska/homes?checkin=2026-09-26&checkout=2026-09-29&ne_lat=65.01798&ne_lng=-147.29263&sw_lat=64.65762&sw_lng=-148.14017",
+          "google_hotels": "https://www.google.com/travel/hotels/Fairbanks%2C+Alaska"
+        },
+        "count": 14,
+        "hotels": [
+          {
+            "hotel": "Clarion Hotel & Suites Fairbanks near Ft Wainwright",
+            "room": "2 Queen Beds, Nonsmoking",
+            "total": 360.56,
+            "nightly": 120.19,
+            "currency": "USD",
+            "rating": 7.2,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/480039304.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Clarion+Hotel+%26+Suites+Fairbanks+near+Ft+Wainwright+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-29&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Clarion+Hotel+%26+Suites+Fairbanks+near+Ft+Wainwright+Fairbanks%2C+Alaska",
+            "lat": 64.839506,
+            "lon": -147.707373
+          },
+          {
+            "hotel": "Best Western Plus Pioneer Park Inn",
+            "room": "2 Queen Beds",
+            "total": 399.75,
+            "nightly": 133.25,
+            "currency": "USD",
+            "rating": 8.1,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/592762029.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Best+Western+Plus+Pioneer+Park+Inn+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-29&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Best+Western+Plus+Pioneer+Park+Inn+Fairbanks%2C+Alaska",
+            "lat": 64.842563,
+            "lon": -147.770185
+          },
+          {
+            "hotel": "Pike's Waterfront Lodge",
+            "room": "standard double room,2 queen beds",
+            "total": 430.39,
+            "nightly": 143.46,
+            "currency": "USD",
+            "rating": 8.8,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/178776037.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Pike%27s+Waterfront+Lodge+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-29&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Pike%27s+Waterfront+Lodge+Fairbanks%2C+Alaska",
+            "lat": 64.831192,
+            "lon": -147.847698
+          },
+          {
+            "hotel": "Aspen Suites Hotel Fairbanks",
+            "room": "Studio with 2 Queen Beds - Non-Smoking",
+            "total": 504.39,
+            "nightly": 168.13,
+            "currency": "USD",
+            "rating": 7.5,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/615047220.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Aspen+Suites+Hotel+Fairbanks+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-29&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Aspen+Suites+Hotel+Fairbanks+Fairbanks%2C+Alaska",
+            "lat": 64.835945,
+            "lon": -147.824087
+          },
+          {
+            "hotel": "Bridgewater Hotel, Trademark Collection by Wyndham",
+            "room": "2 Queen Beds, Junior Suite, Non-Smoking",
+            "total": 561.41,
+            "nightly": 187.14,
+            "currency": "USD",
+            "rating": 7.8,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/261153419.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Bridgewater+Hotel%2C+Trademark+Collection+by+Wyndham+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-29&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Bridgewater+Hotel%2C+Trademark+Collection+by+Wyndham+Fairbanks%2C+Alaska",
+            "lat": 64.843832,
+            "lon": -147.725669
+          },
+          {
+            "hotel": "Comfort Inn Fairbanks",
+            "room": "2 Queen Beds, Nonsmoking",
+            "total": 565.23,
+            "nightly": 188.41,
+            "currency": "USD",
+            "rating": 8.7,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/591485864.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Comfort+Inn+Fairbanks+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-29&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Comfort+Inn+Fairbanks+Fairbanks%2C+Alaska",
+            "lat": 64.83619,
+            "lon": -147.759424
+          },
+          {
+            "hotel": "La Quinta by Wyndham Fairbanks Airport",
+            "room": "2 Queen Beds, Non-Smoking",
+            "total": 575.87,
+            "nightly": 191.96,
+            "currency": "USD",
+            "rating": 8.7,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/257035254.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=La+Quinta+by+Wyndham+Fairbanks+Airport+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-29&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/La+Quinta+by+Wyndham+Fairbanks+Airport+Fairbanks%2C+Alaska",
+            "lat": 64.824435,
+            "lon": -147.866449
+          },
+          {
+            "hotel": "Westmark Fairbanks Hotel and Conference Center",
+            "room": "2 Queen Beds Mobility Accessible With Ri Shwr",
+            "total": 581.75,
+            "nightly": 193.92,
+            "currency": "USD",
+            "rating": 7.7,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/40990225.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Westmark+Fairbanks+Hotel+and+Conference+Center+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-29&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Westmark+Fairbanks+Hotel+and+Conference+Center+Fairbanks%2C+Alaska",
+            "lat": 64.839836,
+            "lon": -147.712745
+          },
+          {
+            "hotel": "Hyatt Place Fairbanks",
+            "room": "Room, Multiple Beds, Accessible, Bathtub(2 Queen Beds and 1 Double Sofa Bed)",
+            "total": 759.67,
+            "nightly": 253.22,
+            "currency": "USD",
+            "rating": 8.5,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/498851487.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Hyatt+Place+Fairbanks+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-29&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Hyatt+Place+Fairbanks+Fairbanks%2C+Alaska",
+            "lat": 64.858467,
+            "lon": -147.702774
+          },
+          {
+            "hotel": "Golden North Inn",
+            "room": "Standard, 2 Queen",
+            "total": 776.31,
+            "nightly": 258.77,
+            "currency": "USD",
+            "rating": 8.6,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/587940202.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Golden+North+Inn+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-29&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Golden+North+Inn+Fairbanks%2C+Alaska",
+            "lat": 64.834664,
+            "lon": -147.829306
+          },
+          {
+            "hotel": "Hampton Inn & Suites Fairbanks",
+            "room": "2 QUEEN BEDS NONSMOKING",
+            "total": 780.52,
+            "nightly": 260.17,
+            "currency": "USD",
+            "rating": 8.8,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/528923704.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Hampton+Inn+%26+Suites+Fairbanks+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-29&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Hampton+Inn+%26+Suites+Fairbanks+Fairbanks%2C+Alaska",
+            "lat": 64.859291,
+            "lon": -147.697309
+          },
+          {
+            "hotel": "Candlewood Suites - Fairbanks by IHG",
+            "room": "2 Queen Studio Suite Mobil Access Tub",
+            "total": 826.9,
+            "nightly": 275.63,
+            "currency": "USD",
+            "rating": 8.7,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/271404629.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Candlewood+Suites+-+Fairbanks+by+IHG+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-29&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Candlewood+Suites+-+Fairbanks+by+IHG+Fairbanks%2C+Alaska",
+            "lat": 64.859972,
+            "lon": -147.68832
+          },
+          {
+            "hotel": "SpringHill Suites by Marriott Fairbanks",
+            "room": "Suite, 2 Queen Beds, Trundle Sofa",
+            "total": 927.59,
+            "nightly": 309.2,
+            "currency": "USD",
+            "rating": 8.7,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/591825141.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=SpringHill+Suites+by+Marriott+Fairbanks+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-29&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/SpringHill+Suites+by+Marriott+Fairbanks+Fairbanks%2C+Alaska",
+            "lat": 64.843694,
+            "lon": -147.720642
+          },
+          {
+            "hotel": "Best Western Plus Chena River Lodge",
+            "room": "Accessible - 2 Queen",
+            "total": 1239.35,
+            "nightly": 413.12,
+            "currency": "USD",
+            "rating": 8.0,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/225651608.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Best+Western+Plus+Chena+River+Lodge+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-29&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Best+Western+Plus+Chena+River+Lodge+Fairbanks%2C+Alaska",
+            "lat": 64.837535,
+            "lon": -147.823593
+          }
+        ],
+        "cheapest": {
+          "hotel": "Clarion Hotel & Suites Fairbanks near Ft Wainwright",
+          "room": "2 Queen Beds, Nonsmoking",
+          "total": 360.56,
+          "nightly": 120.19
+        }
+      }
+    },
+    "4-night": {
+      "arrive": "2026-09-26",
+      "leave": "2026-09-30",
+      "flights": {
+        "ok": true,
+        "fare_source": null,
+        "message": "No cached Aviasales fares for this route \u2014 open Kayak or Google Flights for live 2-adult quotes. September benchmarks are often ~$379\u2013415 per adult (~$758\u2013830 for 2).",
+        "adults": 2,
+        "links": {
+          "aviasales": "https://www.aviasales.com/search/LAX260926FAI3009262?marker=770096",
+          "google_flights": "https://www.google.com/travel/flights?q=Round+trip+flights+from+LAX+to+FAI+2026-09-26+to+2026-09-30+2+adults",
+          "kayak": "https://www.kayak.com/flights/LAX-FAI/2026-09-26/2026-09-30/2adults?sort=bestflight_a"
+        },
+        "fares": [],
+        "cheapest": null
+      },
+      "hotels": {
+        "ok": true,
+        "message": "Nuitee / LiteAPI hotel rates.",
+        "query": {
+          "center": {
+            "lat": 64.8378,
+            "lon": -147.7164
+          },
+          "radius_km": 20.0,
+          "check_in": "2026-09-26",
+          "check_out": "2026-09-30",
+          "adults": 2,
+          "bed_types": [
+            "queen"
+          ],
+          "bed_verify": false,
+          "currency": "USD",
+          "city": "Fairbanks, Alaska",
+          "provider": "nuitee-hotel-v1",
+          "context_pins": {
+            "calton_hill": {
+              "lat": 55.9549,
+              "lon": -3.1824
+            },
+            "david_hume": {
+              "lat": 55.9497,
+              "lon": -3.1906
+            },
+            "national_museum": {
+              "lat": 55.947,
+              "lon": -3.1898
+            },
+            "arthurs_seat": {
+              "lat": 55.9442,
+              "lon": -3.1618
+            }
+          }
+        },
+        "area_links": {
+          "booking": "https://www.booking.com/searchresults.html?ss=Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-30&group_adults=2",
+          "expedia": "https://www.expedia.com/Hotel-Search?destination=Fairbanks%2C+Alaska",
+          "hotels_com": "https://www.hotels.com/Hotel-Search?destination=Fairbanks%2C+Alaska",
+          "airbnb": "https://www.airbnb.com/s/Fairbanks%2C+Alaska/homes?checkin=2026-09-26&checkout=2026-09-30&ne_lat=65.01798&ne_lng=-147.29263&sw_lat=64.65762&sw_lng=-148.14017",
+          "google_hotels": "https://www.google.com/travel/hotels/Fairbanks%2C+Alaska"
+        },
+        "count": 14,
+        "hotels": [
+          {
+            "hotel": "Clarion Hotel & Suites Fairbanks near Ft Wainwright",
+            "room": "2 Queen Beds, Nonsmoking",
+            "total": 476.51,
+            "nightly": 119.13,
+            "currency": "USD",
+            "rating": 7.2,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/480039304.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Clarion+Hotel+%26+Suites+Fairbanks+near+Ft+Wainwright+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-30&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Clarion+Hotel+%26+Suites+Fairbanks+near+Ft+Wainwright+Fairbanks%2C+Alaska",
+            "lat": 64.839506,
+            "lon": -147.707373
+          },
+          {
+            "hotel": "Best Western Plus Pioneer Park Inn",
+            "room": "2 Queen Beds",
+            "total": 538.9,
+            "nightly": 134.72,
+            "currency": "USD",
+            "rating": 8.1,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/592762029.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Best+Western+Plus+Pioneer+Park+Inn+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-30&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Best+Western+Plus+Pioneer+Park+Inn+Fairbanks%2C+Alaska",
+            "lat": 64.842563,
+            "lon": -147.770185
+          },
+          {
+            "hotel": "Pike's Waterfront Lodge",
+            "room": "Standard Double Room, 2 Queen Beds",
+            "total": 658.86,
+            "nightly": 164.72,
+            "currency": "USD",
+            "rating": 8.8,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/178776037.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Pike%27s+Waterfront+Lodge+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-30&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Pike%27s+Waterfront+Lodge+Fairbanks%2C+Alaska",
+            "lat": 64.831192,
+            "lon": -147.847698
+          },
+          {
+            "hotel": "Aspen Suites Hotel Fairbanks",
+            "room": "Studio with 2 Queen Beds - Non-Smoking",
+            "total": 672.52,
+            "nightly": 168.13,
+            "currency": "USD",
+            "rating": 7.5,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/615047220.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Aspen+Suites+Hotel+Fairbanks+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-30&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Aspen+Suites+Hotel+Fairbanks+Fairbanks%2C+Alaska",
+            "lat": 64.835945,
+            "lon": -147.824087
+          },
+          {
+            "hotel": "Comfort Inn Fairbanks",
+            "room": "2 Queen Beds, Nonsmoking, Accessible",
+            "total": 748.53,
+            "nightly": 187.13,
+            "currency": "USD",
+            "rating": 8.7,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/591485864.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Comfort+Inn+Fairbanks+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-30&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Comfort+Inn+Fairbanks+Fairbanks%2C+Alaska",
+            "lat": 64.83619,
+            "lon": -147.759424
+          },
+          {
+            "hotel": "Bridgewater Hotel, Trademark Collection by Wyndham",
+            "room": "2 Queen Beds, Junior Suite, Non-Smoking",
+            "total": 748.55,
+            "nightly": 187.14,
+            "currency": "USD",
+            "rating": 7.8,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/261153419.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Bridgewater+Hotel%2C+Trademark+Collection+by+Wyndham+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-30&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Bridgewater+Hotel%2C+Trademark+Collection+by+Wyndham+Fairbanks%2C+Alaska",
+            "lat": 64.843832,
+            "lon": -147.725669
+          },
+          {
+            "hotel": "La Quinta by Wyndham Fairbanks Airport",
+            "room": "2 Queen Beds, Non-Smoking",
+            "total": 767.83,
+            "nightly": 191.96,
+            "currency": "USD",
+            "rating": 8.7,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/257035254.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=La+Quinta+by+Wyndham+Fairbanks+Airport+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-30&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/La+Quinta+by+Wyndham+Fairbanks+Airport+Fairbanks%2C+Alaska",
+            "lat": 64.824435,
+            "lon": -147.866449
+          },
+          {
+            "hotel": "Westmark Fairbanks Hotel and Conference Center",
+            "room": "2 Queen Beds Mobility Accessible With Ri Shwr",
+            "total": 787.19,
+            "nightly": 196.8,
+            "currency": "USD",
+            "rating": 7.7,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/40990225.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Westmark+Fairbanks+Hotel+and+Conference+Center+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-30&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Westmark+Fairbanks+Hotel+and+Conference+Center+Fairbanks%2C+Alaska",
+            "lat": 64.839836,
+            "lon": -147.712745
+          },
+          {
+            "hotel": "Hyatt Place Fairbanks",
+            "room": "Room, 2 Queen Beds, Non Smoking",
+            "total": 1006.33,
+            "nightly": 251.58,
+            "currency": "USD",
+            "rating": 8.5,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/498851487.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Hyatt+Place+Fairbanks+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-30&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Hyatt+Place+Fairbanks+Fairbanks%2C+Alaska",
+            "lat": 64.858467,
+            "lon": -147.702774
+          },
+          {
+            "hotel": "Golden North Inn",
+            "room": "Standard, 2 Queen",
+            "total": 1035.07,
+            "nightly": 258.77,
+            "currency": "USD",
+            "rating": 8.6,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/587940202.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Golden+North+Inn+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-30&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Golden+North+Inn+Fairbanks%2C+Alaska",
+            "lat": 64.834664,
+            "lon": -147.829306
+          },
+          {
+            "hotel": "Hampton Inn & Suites Fairbanks",
+            "room": "2 QUEEN BEDS NONSMOKING",
+            "total": 1040.7,
+            "nightly": 260.18,
+            "currency": "USD",
+            "rating": 8.8,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/528923704.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Hampton+Inn+%26+Suites+Fairbanks+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-30&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Hampton+Inn+%26+Suites+Fairbanks+Fairbanks%2C+Alaska",
+            "lat": 64.859291,
+            "lon": -147.697309
+          },
+          {
+            "hotel": "Candlewood Suites - Fairbanks by IHG",
+            "room": "2 Queen Studio Suite Comm Access",
+            "total": 1102.54,
+            "nightly": 275.63,
+            "currency": "USD",
+            "rating": 8.7,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/271404629.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Candlewood+Suites+-+Fairbanks+by+IHG+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-30&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Candlewood+Suites+-+Fairbanks+by+IHG+Fairbanks%2C+Alaska",
+            "lat": 64.859972,
+            "lon": -147.68832
+          },
+          {
+            "hotel": "SpringHill Suites by Marriott Fairbanks",
+            "room": "SUITE TWO QUEEN BEDS",
+            "total": 1226.79,
+            "nightly": 306.7,
+            "currency": "USD",
+            "rating": 8.7,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/591825141.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=SpringHill+Suites+by+Marriott+Fairbanks+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-30&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/SpringHill+Suites+by+Marriott+Fairbanks+Fairbanks%2C+Alaska",
+            "lat": 64.843694,
+            "lon": -147.720642
+          },
+          {
+            "hotel": "Best Western Plus Chena River Lodge",
+            "room": "Accessible - 2 Queen",
+            "total": 1725.36,
+            "nightly": 431.34,
+            "currency": "USD",
+            "rating": 8.0,
+            "bed_verify": false,
+            "photo_url": "https://static.cupid.travel/hotels/225651608.jpg",
+            "booking_url": "https://www.booking.com/searchresults.html?ss=Best+Western+Plus+Chena+River+Lodge+Fairbanks%2C+Alaska&checkin=2026-09-26&checkout=2026-09-30&group_adults=2",
+            "google_hotels_url": "https://www.google.com/travel/hotels/Best+Western+Plus+Chena+River+Lodge+Fairbanks%2C+Alaska",
+            "lat": 64.837535,
+            "lon": -147.823593
+          }
+        ],
+        "cheapest": {
+          "hotel": "Clarion Hotel & Suites Fairbanks near Ft Wainwright",
+          "room": "2 Queen Beds, Nonsmoking",
+          "total": 476.51,
+          "nightly": 119.13
+        }
+      }
+    }
+  },
+  "chena": {
+    "ok": true,
+    "message": "Nuitee / LiteAPI hotel rates.",
+    "count": 0,
+    "hotels": []
+  },
+  "flight_benchmark": {
+    "per_adult_low_usd": 379,
+    "per_adult_mid_usd": 415,
+    "per_adult_high_usd": 600,
+    "party_of_2_mid_usd": 830,
+    "note": "Aviasales cache empty for LAX-FAI; verify on Kayak/Google"
+  }
+}

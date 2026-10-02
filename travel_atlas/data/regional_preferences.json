@@ -1,0 +1,177 @@
+{
+  "England": {
+    "favorite_foods": [
+      "full English breakfast",
+      "fish and chips",
+      "scrumpy cider",
+      "navy strength gin",
+      "Sunday roast",
+      "Cornish pasty",
+      "afternoon tea"
+    ],
+    "museum_types": [
+      "history",
+      "design",
+      "modern art",
+      "maritime",
+      "science"
+    ],
+    "outdoor_interests": [
+      "countryside walks",
+      "Lake District",
+      "coastal paths",
+      "gardens",
+      "national parks"
+    ],
+    "budget_tendency": "moderate",
+    "transportation_preferences": ["train", "subway", "walking", "bus"],
+    "suggested_days": 5,
+    "interests": ["museum_history", "nature_gardens", "transport"]
+  },
+  "Scotland": {
+    "favorite_foods": [
+      "haggis",
+      "neeps and tatties",
+      "peated single malt Scotch",
+      "heather ale",
+      "cullen skink",
+      "shortbread",
+      "Scottish salmon"
+    ],
+    "museum_types": [
+      "history",
+      "clan heritage",
+      "castles",
+      "whisky heritage",
+      "art"
+    ],
+    "outdoor_interests": [
+      "Highlands hiking",
+      "lochs",
+      "Isle hopping",
+      "Munros",
+      "wild swimming"
+    ],
+    "budget_tendency": "moderate",
+    "transportation_preferences": ["train", "bus", "walking", "car"],
+    "suggested_days": 5,
+    "interests": ["nature_gardens", "museum_history", "transport"]
+  },
+  "Ireland": {
+    "favorite_foods": [
+      "spice bag",
+      "Howth fish and chips",
+      "Irish stew",
+      "soda bread",
+      "poitín",
+      "Guinness",
+      "full Irish breakfast"
+    ],
+    "museum_types": [
+      "history",
+      "literature",
+      "folk life",
+      "castles",
+      "emigration"
+    ],
+    "outdoor_interests": [
+      "coastal cliffs",
+      "Wild Atlantic Way",
+      "greenways",
+      "castles and ruins",
+      "pub music nights outdoors"
+    ],
+    "budget_tendency": "moderate",
+    "transportation_preferences": ["bus", "train", "walking", "car"],
+    "suggested_days": 4,
+    "interests": ["museum_history", "nature_gardens", "nightlife"]
+  },
+  "France": {
+    "favorite_foods": [
+      "croissant",
+      "fromage",
+      "baguette",
+      "absinthe",
+      "Chartreuse",
+      "Calvados",
+      "bouillabaisse",
+      "ratatouille"
+    ],
+    "museum_types": [
+      "fine art",
+      "impressionism",
+      "history",
+      "design",
+      "palaces"
+    ],
+    "outdoor_interests": [
+      "Alps",
+      "Provence countryside",
+      "Normandy coast",
+      "vineyard walks",
+      "city parks"
+    ],
+    "budget_tendency": "comfortable",
+    "transportation_preferences": ["train", "subway", "walking", "flight"],
+    "suggested_days": 5,
+    "interests": ["museum_history", "market_food", "nature_gardens"]
+  },
+  "Spain": {
+    "favorite_foods": [
+      "tapas",
+      "paella",
+      "jamón ibérico",
+      "patxaran",
+      "orujo",
+      "churros",
+      "pintxos"
+    ],
+    "museum_types": [
+      "modern art",
+      "history",
+      "architecture",
+      "Flamenco culture",
+      "archaeology"
+    ],
+    "outdoor_interests": [
+      "Camino stretches",
+      "Mediterranean beaches",
+      "Andalusian hills",
+      "city plazas",
+      "park walks"
+    ],
+    "budget_tendency": "moderate",
+    "transportation_preferences": ["train", "walking", "subway", "bus"],
+    "suggested_days": 5,
+    "interests": ["market_food", "museum_history", "nightlife"]
+  },
+  "Portugal": {
+    "favorite_foods": [
+      "pastel de nata",
+      "bacalhau",
+      "ginjinha",
+      "Licor Beirão",
+      "aguardente de medronho",
+      "sardinhas",
+      "francesinha"
+    ],
+    "museum_types": [
+      "maritime history",
+      "azulejo tiles",
+      "contemporary art",
+      "castles",
+      "fado culture"
+    ],
+    "outdoor_interests": [
+      "Algarve cliffs",
+      "Douro valley",
+      "Atlantic beaches",
+      "tram hills",
+      "sintra forests"
+    ],
+    "budget_tendency": "moderate",
+    "transportation_preferences": ["train", "tram", "walking", "bus"],
+    "suggested_days": 4,
+    "interests": ["market_food", "museum_history", "nature_gardens"]
+  }
+}

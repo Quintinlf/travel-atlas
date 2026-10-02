@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{title}}</title>
+  <style>
+    :root {
+      --ink: #0f172a;
+      --muted: #475569;
+      --accent: #1e3a5f;
+      --accent-light: #e8f1fb;
+      --success: #166534;
+      --warn-bg: #fff7ed;
+      --warn-border: #fdba74;
+      --border: #e2e8f0;
+      --card: #ffffff;
+      --star: #ca8a04;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background: #f8fafc;
+      line-height: 1.55;
+    }
+    .hero {
+      position: relative;
+      min-height: 220px;
+      color: #fff;
+      background: linear-gradient(135deg, rgba(15,23,42,.88), rgba(30,58,95,.78)),
+        url("{{hero_image_url}}") center/cover no-repeat;
+      padding: 2.75rem 2rem 2.25rem;
+    }
+    .hero h1 {
+      margin: 0 0 .5rem;
+      font-size: 2.1rem;
+      font-weight: 700;
+      letter-spacing: .02em;
+    }
+    .hero p { margin: 0; font-size: 1.05rem; opacity: .95; max-width: 44rem; }
+    .wrap { max-width: 960px; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.35rem;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 1px 3px rgba(15,23,42,.06);
+      overflow: hidden;
+    }
+    .leg-card { padding-top: 0; }
+    h2 {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: 1.15rem;
+      margin: 0 0 .75rem;
+      color: var(--accent);
+      letter-spacing: .03em;
+      text-transform: uppercase;
+    }
+    h3 {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: 1.02rem;
+      margin: 1rem 0 .4rem;
+      color: var(--ink);
+    }
+    .acg-subhead {
+      font-size: .95rem;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      color: var(--accent);
+      margin: 1rem 0 .5rem;
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: .75rem;
+      margin: .5rem 0 0;
+    }
+    .stat {
+      background: var(--accent-light);
+      border-radius: 8px;
+      padding: .75rem .9rem;
+    }
+    .stat .label {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: .72rem;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--muted);
+    }
+    .stat .value {
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin-top: .15rem;
+    }
+    .callout {
+      background: var(--warn-bg);
+      border: 1px solid var(--warn-border);
+      border-radius: 8px;
+      padding: .9rem 1rem;
+      margin: .75rem 0;
+      font-size: .98rem;
+    }
+    .day-badge {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      padding: .25rem .65rem;
+      border-radius: 999px;
+      margin-left: .4rem;
+      vertical-align: middle;
+      text-transform: none;
+    }
+    .leg-heading {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: .35rem;
+      margin: .85rem 0 .55rem;
+    }
+    .leg-heading h2 { margin: 0; }
+    .region-photo {
+      display: block;
+      width: calc(100% + 2.7rem);
+      max-width: none;
+      margin: 0 -1.35rem 0;
+      height: 180px;
+      object-fit: cover;
+      background: #e2e8f0;
+    }
+    .acg-pair {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .85rem;
+      margin: .5rem 0 1rem;
+    }
+    .acg-panel {
+      margin: 0;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      background: #fff;
+    }
+    .acg-map {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: #f1f5f9;
+    }
+    .acg-panel figcaption {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: .72rem;
+      color: var(--muted);
+      padding: .45rem .65rem .55rem;
+      line-height: 1.35;
+    }
+    ul.pin-list { padding-left: 1.25rem; margin: .4rem 0 .2rem; }
+    ul.pin-list li { margin-bottom: .28rem; font-size: .95rem; }
+    ul.pin-list a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+    ul.pin-list a:hover { color: #0f172a; }
+    .city-block { margin: .65rem 0 .2rem; }
+    .city-block .city-name {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-weight: 600;
+      color: var(--muted);
+      font-size: .88rem;
+    }
+    .hotel-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: .75rem;
+    }
+    .hotel-card {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      background: #fff;
+      break-inside: avoid;
+      padding: 0;
+    }
+    .hotel-card.starred {
+      border-color: var(--star);
+      box-shadow: 0 0 0 2px #fef9c3;
+    }
+    .hotel-photo {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      display: block;
+      background: #e2e8f0;
+    }
+    .hotel-photo.placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: .85rem;
+    }
+    .hotel-body { padding: .85rem 1rem 1rem; }
+    .hotel-name { margin: 0 0 .35rem; font-size: 1.02rem; }
+    .hotel-name a { color: var(--accent); text-decoration: none; }
+    .star-tag {
+      display: inline-block;
+      background: #ca8a04;
+      color: #fff;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      padding: .15rem .5rem;
+      border-radius: 4px;
+      margin-left: .35rem;
+      vertical-align: middle;
+    }
+    .hotel-meta { margin: .2rem 0; font-size: .9rem; color: var(--muted); }
+    .hotel-why { margin: .35rem 0; font-size: .92rem; }
+    .hotel-shuttle { margin: .35rem 0 0; font-size: .88rem; }
+    .links a, .btn-link {
+      display: inline-block;
+      margin: .35rem .5rem .35rem 0;
+      padding: .45rem .75rem;
+      background: var(--accent);
+      color: #fff !important;
+      text-decoration: none;
+      border-radius: 6px;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: .82rem;
+    }
+    .links a.secondary { background: #334155; }
+    .footer {
+      margin-top: 2rem;
+      font-size: .8rem;
+      color: var(--muted);
+      font-family: "Segoe UI", system-ui, sans-serif;
+    }
+    .route-flow {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: .92rem;
+      color: var(--muted);
+      margin-top: .75rem;
+    }
+    @media (max-width: 720px) {
+      .acg-pair { grid-template-columns: 1fr; }
+      .region-photo { height: 140px; }
+    }
+    @media print {
+      body { background: #fff; }
+      .card { box-shadow: none; }
+      .hero {
+        min-height: 120px;
+        padding: 1.5rem 1.25rem;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .wrap { padding: .75rem .5rem 1.5rem; max-width: 100%; }
+      a[href]::after { content: none !important; }
+      .hotel-card, .card, .stat, .acg-panel { break-inside: avoid; page-break-inside: avoid; }
+      h2, h3 { break-after: avoid; }
+      .day-badge, .star-tag, .region-photo, .acg-map, .hotel-photo {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .region-photo { height: 130px; }
+      .acg-pair { gap: .5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>{{title}}</h1>
+    <p>{{subtitle}}</p>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>Trip at a glance</h2>
+      <div class="stats">
+        <div class="stat"><div class="label">Total days</div><div class="value">{{total_days}}</div></div>
+        <div class="stat"><div class="label">Route legs</div><div class="value">{{leg_count}}</div></div>
+        <div class="stat"><div class="label">Saved pins</div><div class="value">{{pin_count}}</div></div>
+        <div class="stat"><div class="label">Pattern</div><div class="value">Open-jaw</div></div>
+      </div>
+      <p class="route-flow">{{route_flow}}</p>
+      <p class="muted" style="margin:.55rem 0 0;font-size:.9rem;color:var(--muted);">
+        <strong>Open-jaw</strong> means you fly <em>into</em> one city and fly <em>home from</em> another
+        (here: land EDI, exit Lisbon or Porto) — not a round-trip to the same airport.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Route debrief</h2>
+      <div class="callout">{{route_debrief}}</div>
+    </section>
+
+    <section class="card">
+      <h2>Astrocartography — full route</h2>
+      <p>Side-by-side natal maps for Traveler One and Traveler Two (AstroClick-style).
+        Thin aspect lines; planet glyphs sit <em>outside</em> the map frame with light leader lines
+        (e.g. <code>☉ MC</code> / <code>☽ AS</code>).</p>
+      {{overview_acg_section}}
+    </section>
+
+    <section class="card">
+      <h2>Scotland hotels to look into</h2>
+      <p>{{scotland_hotels_intro}}</p>
+      <p><em>★ = advertises airport shuttle (EDI or GLA). Confirm hours and fees before booking.</em></p>
+      {{scotland_hotels_section}}
+    </section>
+
+    {{leg_sections}}
+
+    <section class="card">
+      <h2>Booking / planning checklist</h2>
+      <ol>
+        <li><strong>Inbound open-jaw to EDI</strong> — book into Edinburgh and home from Lisbon/Porto (different arrival and departure cities), not a same-city round-trip.</li>
+        <li><strong>EDI rental car</strong> — Day 1 midday pickup, Day 2 afternoon drop.</li>
+        <li><strong>Dundee hotel</strong> — 1 night after St Andrews.</li>
+        <li><strong>Glasgow hotel</strong> — 2 nights; train from EDI Waverley evening Day 2.</li>
+        <li><strong>Starred Scotland hotels</strong> — prefer shuttle-starred options near EDI/GLA when airport logistics matter.</li>
+        <li>Passport / ETIAS / Schengen timing for both travelers before committing flights.</li>
+      </ol>
+    </section>
+
+    <footer class="footer">
+      Generated {{generated_at}} · West Europe trip briefing (45-day budget) ·
+      Day counts are planning targets. Pin names link to Google Maps.
+      Astrocartography rendered offline (Natural Earth land + angular/aspect lines).
+    </footer>
+  </main>
+</body>
+</html>

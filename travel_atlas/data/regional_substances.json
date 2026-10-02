@@ -1,0 +1,158 @@
+{
+  "_disclaimer": "Personal research notes — not legal advice. Verify current local law before buying, foraging, or consuming anything.",
+  "regions": {
+    "Scotland": {
+      "psychoactives": [
+        {
+          "name": "Bog Myrtle (Myrica gale)",
+          "image_query": "Myrica gale",
+          "image_file": "bog_myrtle.png",
+          "notes": "Ancient Gaelic gruit ale herb; mild clarifying sedative/relaxant in tea or traditional ale. Legal to buy, forage, consume."
+        },
+        {
+          "name": "Heather (Calluna vulgaris)",
+          "image_query": "Calluna vulgaris",
+          "notes": "Used in fermented meads/ales by Highland tribes; subtle euphoric/relaxing herbal property in blooms."
+        }
+      ],
+      "spirits": [
+        {
+          "name": "Peated single malt Scotch",
+          "image_query": "peated whisky",
+          "notes": "Barley dried over peat fires — campfire, earth, ocean brine."
+        },
+        {
+          "name": "Heather ale",
+          "image_query": "Fraoch heather ale bottle",
+          "image_file": "heather_ale_fraoch.png",
+          "notes": "Ancient ale style brewed with flowering heather instead of hops."
+        }
+      ]
+    },
+    "Ireland": {
+      "psychoactives": [
+        {
+          "name": "Bog Myrtle (Myrica gale)",
+          "image_query": "Myrica gale",
+          "image_file": "bog_myrtle.png",
+          "notes": "Shared Gaelic brewing tradition with Scotland; gruit ales."
+        },
+        {
+          "name": "Heather ferments",
+          "image_query": "Calluna vulgaris",
+          "notes": "Traditional fermented heather preparations."
+        }
+      ],
+      "spirits": [
+        {
+          "name": "Poitín",
+          "image_query": "poitin Irish spirit",
+          "notes": "Irish moonshine from malted barley/oats/potato; banned 1779, re-legalized 1997; 40–90%+ ABV."
+        }
+      ]
+    },
+    "England": {
+      "psychoactives": [
+        {
+          "name": "Wild Lettuce (Lactuca virosa)",
+          "image_query": "Lactuca virosa",
+          "notes": "Stem latex lactucarium ('lettuce opium') — mild legal sedative/relaxant; Roman Britain herbalism."
+        },
+        {
+          "name": "Valerian root (Valeriana officinalis)",
+          "image_query": "Valeriana officinalis",
+          "notes": "Legal tea/tincture hypnotic/sedative used since Greco-Roman times."
+        }
+      ],
+      "spirits": [
+        {
+          "name": "Scrumpy cider / perry",
+          "image_query": "farmhouse perry cider apples pears",
+          "image_file": "scrumpy_cider_perry.png",
+          "notes": "Unpasteurized West Country apple/pear cider; often still; 8–9% ABV."
+        },
+        {
+          "name": "Navy strength gin",
+          "image_query": "gin bottle",
+          "notes": "≥57% ABV; historic Royal Navy gunpowder test."
+        }
+      ]
+    },
+    "France": {
+      "psychoactives": [
+        {
+          "name": "Grand wormwood (Artemisia absinthium)",
+          "image_query": "Artemisia absinthium",
+          "notes": "Thujone-bearing herb behind absinthe; dried herb and traditional spirits legal; raw oil extracts regulated."
+        }
+      ],
+      "spirits": [
+        {
+          "name": "Chartreuse",
+          "image_query": "Chartreuse liqueur",
+          "notes": "Carthusian monks since 1737; ~130 alpine herbs; Green 55% ABV."
+        },
+        {
+          "name": "Calvados",
+          "image_query": "Calvados brandy",
+          "notes": "Normandy apple brandy from cider."
+        },
+        {
+          "name": "Absinthe",
+          "image_query": "absinthe glass",
+          "notes": "Wormwood, anise, fennel spirit."
+        }
+      ]
+    },
+    "Spain": {
+      "psychoactives": [
+        {
+          "name": "Cannabis social clubs",
+          "image_query": "Barcelona cannabis social club interior",
+          "image_file": "cannabis_social_club.png",
+          "notes": "Private non-commercial clubs (e.g. Barcelona, Basque) allow member/guest consumption inside club space — not street shops."
+        }
+      ],
+      "spirits": [
+        {
+          "name": "Patxaran",
+          "image_query": "patxaran bottle",
+          "image_file": "patxaran.png",
+          "notes": "Basque/Navarre sloe berry liqueur with coffee bean and cinnamon in anise spirit."
+        },
+        {
+          "name": "Orujo de Galicia",
+          "image_query": "orujo Galicia bottle",
+          "image_file": "orujo_galicia.png",
+          "notes": "Pomace brandy; often herb-infused (orujo de hierbas)."
+        }
+      ]
+    },
+    "Portugal": {
+      "psychoactives": [
+        {
+          "name": "Decriminalization framework (2001)",
+          "notes": "Personal possession of substances is an administrative matter, not a criminal offense — not the same as legal retail shops."
+        }
+      ],
+      "spirits": [
+        {
+          "name": "Aguardente de Medronho",
+          "image_query": "medronho",
+          "notes": "Algarve mountain spirit from strawberry-tree (medronho) fruit."
+        },
+        {
+          "name": "Ginjinha (Ginja)",
+          "image_query": "ginjinha",
+          "notes": "Lisbon/Óbidos sour-cherry liqueur in aguardente; often with a cherry in the glass."
+        },
+        {
+          "name": "Licor Beirão",
+          "image_query": "Licor Beirao",
+          "notes": "National sweet liqueur; secret blend of 13 plants/seeds including eucalyptus."
+        }
+      ]
+    }
+  },
+  "historical_caution": "Henbane, mandrake, and deadly nightshade contain lethal tropane alkaloids and are not sold as recreational consumables."
+}

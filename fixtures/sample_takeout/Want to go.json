@@ -1,0 +1,61 @@
+[
+  {
+    "name": "The Globe Theatre",
+    "address": "21 New Globe Walk, London SE1 9DT, UK",
+    "latitude": 51.5081,
+    "longitude": -0.0972,
+    "notes": "Shakespeare plays in summer",
+    "list_name": "Want To Go"
+  },
+  {
+    "name": "Hampstead Heath",
+    "address": "Hampstead Heath, London NW3, UK",
+    "latitude": 51.5624,
+    "longitude": -0.1618,
+    "list_name": "Want To Go"
+  },
+  {
+    "name": "Versailles Palace",
+    "address": "Place d'Armes, 78000 Versailles, France",
+    "latitude": 48.8049,
+    "longitude": 2.1204,
+    "notes": "Book tickets in advance",
+    "list_name": "Want To Go"
+  },
+  {
+    "name": "Sacré-Cœur Basilica",
+    "address": "35 Rue du Chevalier de la Barre, 75018 Paris, France",
+    "latitude": 48.8867,
+    "longitude": 2.3431,
+    "list_name": "Want To Go"
+  },
+  {
+    "name": "Skellig Michael",
+    "address": "Skellig Michael, County Kerry, Ireland",
+    "latitude": 51.7730,
+    "longitude": -10.5396,
+    "notes": "Star Wars filming location. Need boat tour",
+    "list_name": "Want To Go"
+  },
+  {
+    "name": "Cliffs of Moher",
+    "address": "Liscannor, County Clare, Ireland",
+    "latitude": 52.9715,
+    "longitude": -9.4258,
+    "list_name": "Want To Go"
+  },
+  {
+    "name": "Loch Ness",
+    "address": "Loch Ness, Highland, Scotland, UK",
+    "latitude": 57.3229,
+    "longitude": -4.4244,
+    "list_name": "Want To Go"
+  },
+  {
+    "name": "Stirling Castle",
+    "address": "Castle Wynd, Stirling FK8 1EJ, UK",
+    "latitude": 56.1236,
+    "longitude": -3.9471,
+    "list_name": "Want To Go"
+  }
+]

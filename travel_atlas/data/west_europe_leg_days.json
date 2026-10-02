@@ -1,0 +1,72 @@
+{
+  "total_days": 45,
+  "route_debrief": "Open-jaw West Europe (45 days max): land EDI → Scotland car loop (Edinburgh, Fife, Dundee, Perth) → drop the rental at EDI → ScotRail to Glasgow → Northern/Central England → London hub → SW England & Wales → Ireland loop → Northern France & Paris → Brittany & SW France → Basque / Northern Spain → Central & Southern Spain → Portugal → fly home from Lisbon or Porto. Day budget: UK 11 / Ireland 6 / France 10 / Spain 10 / Portugal 8.",
+  "legs": [
+    {
+      "name": "Scotland car loop (Dundee)",
+      "days": 2,
+      "blurb": "Land EDI, Edinburgh cluster, pick up the car, Forth Bridge / Eagle Rock / St Andrews, overnight Dundee. Day 2: Perth / Scone / Almondbank, then return the car at EDI.",
+      "image_url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "name": "Glasgow",
+      "days": 1,
+      "blurb": "Evening train from EDI into Glasgow; full day in the city without a car.",
+      "image_url": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "name": "Northern/Central England",
+      "days": 3,
+      "blurb": "York, Manchester, Birmingham and other North/Midlands pin clusters between Glasgow and London.",
+      "image_url": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "name": "London Hub",
+      "days": 4,
+      "blurb": "Dense London / West End / riverside pins — museums, food, and day trips like Windsor or Canterbury.",
+      "image_url": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "name": "SW England & Wales",
+      "days": 1,
+      "blurb": "Tintagel, Tank Museum / Bovington, and Welsh stops before crossing to Ireland.",
+      "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "name": "Ireland Loop",
+      "days": 6,
+      "blurb": "Dublin hub plus west and midlands pins (Clifden, Newgrange area, Cork/Kerry approaches).",
+      "image_url": "https://images.unsplash.com/photo-1590080875515-8a3a10bbda66?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "name": "Northern France & Paris",
+      "days": 6,
+      "blurb": "Paris and northern France (Reims, Amiens, Channel approaches) after Ireland.",
+      "image_url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "name": "Brittany & SW France",
+      "days": 4,
+      "blurb": "Brittany (Rennes / Quintin / Carnac) and Atlantic / SW France (Bordeaux, Cognac, Lyon approaches).",
+      "image_url": "https://images.unsplash.com/photo-1549144511-f099e773c147?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "name": "Northern Spain / Basque",
+      "days": 4,
+      "blurb": "San Sebastián / Basque coast, then northwest Spain (Potes, Galicia / Fisterra).",
+      "image_url": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "name": "Central & Southern Spain",
+      "days": 6,
+      "blurb": "Madrid, Toledo, Andalusia (Granada, Marbella, Tarifa) and related inland pins.",
+      "image_url": "https://images.unsplash.com/photo-1558642084-fd07fae52826?auto=format&fit=crop&w=1400&q=80"
+    },
+    {
+      "name": "Portugal",
+      "days": 8,
+      "blurb": "Lisbon neighborhoods, Sintra / Cape Roca, Porto and Douro — open-jaw home from Lisbon or Porto.",
+      "image_url": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1400&q=80"
+    }
+  ]
+}

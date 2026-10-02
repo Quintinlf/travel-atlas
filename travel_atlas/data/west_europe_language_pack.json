@@ -1,0 +1,83 @@
+{
+  "pack_id": "west_europe_2026",
+  "title": "West Europe language pack",
+  "disclaimer": "Starter phrases for travel — open LinguaGraph or Atlas Language to practice.",
+  "languages": [
+    {
+      "id": "gd",
+      "name": "Scottish Gaelic",
+      "region": "Scotland",
+      "phrases": [
+        {"phrase": "Halò", "translation": "Hello"},
+        {"phrase": "Tapadh leat", "translation": "Thank you"},
+        {"phrase": "Slàinte", "translation": "Cheers / health"},
+        {"phrase": "Càit a bheil…?", "translation": "Where is…?"},
+        {"phrase": "Tha mi duilich", "translation": "I'm sorry"}
+      ]
+    },
+    {
+      "id": "ga",
+      "name": "Irish Gaelic",
+      "region": "Ireland",
+      "phrases": [
+        {"phrase": "Dia dhuit", "translation": "Hello"},
+        {"phrase": "Go raibh maith agat", "translation": "Thank you"},
+        {"phrase": "Sláinte", "translation": "Cheers"},
+        {"phrase": "Cá bhfuil…?", "translation": "Where is…?"},
+        {"phrase": "Tá brón orm", "translation": "I'm sorry"}
+      ]
+    },
+    {
+      "id": "cy",
+      "name": "Welsh",
+      "region": "Wales",
+      "phrases": [
+        {"phrase": "Helo", "translation": "Hello"},
+        {"phrase": "Diolch", "translation": "Thank you"},
+        {"phrase": "Iechyd da", "translation": "Cheers / good health"},
+        {"phrase": "Ble mae…?", "translation": "Where is…?"},
+        {"phrase": "Mae'n ddrwg gen i", "translation": "I'm sorry"}
+      ]
+    },
+    {
+      "id": "fr",
+      "name": "French",
+      "region": "France",
+      "phrases": [
+        {"phrase": "Bonjour", "translation": "Hello"},
+        {"phrase": "Merci", "translation": "Thank you"},
+        {"phrase": "S'il vous plaît", "translation": "Please"},
+        {"phrase": "Où est…?", "translation": "Where is…?"},
+        {"phrase": "L'addition, s'il vous plaît", "translation": "The bill, please"}
+      ]
+    },
+    {
+      "id": "es",
+      "name": "Spanish",
+      "region": "Spain",
+      "phrases": [
+        {"phrase": "Hola", "translation": "Hello"},
+        {"phrase": "Gracias", "translation": "Thank you"},
+        {"phrase": "Por favor", "translation": "Please"},
+        {"phrase": "¿Dónde está…?", "translation": "Where is…?"},
+        {"phrase": "La cuenta, por favor", "translation": "The bill, please"}
+      ]
+    },
+    {
+      "id": "pt",
+      "name": "Portuguese",
+      "region": "Portugal",
+      "phrases": [
+        {"phrase": "Olá", "translation": "Hello"},
+        {"phrase": "Obrigado / Obrigada", "translation": "Thank you (m/f)"},
+        {"phrase": "Por favor", "translation": "Please"},
+        {"phrase": "Onde fica…?", "translation": "Where is…?"},
+        {"phrase": "A conta, por favor", "translation": "The bill, please"}
+      ]
+    }
+  ],
+  "linguagraph": {
+    "home": "http://localhost:3000/",
+    "hint": "Run language_learning/run_language.ps1 then open the home dashboard."
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Borough Market",
+    "address": "8 Southwark St, London SE1 1TL, UK",
+    "latitude": 51.5055,
+    "longitude": -0.0910,
+    "review": "Best food market in London. Try the cheese stalls.",
+    "category": "food market"
+  },
+  {
+    "name": "Dishoom Covent Garden",
+    "address": "12 Upper St Martin's Lane, London WC2H 9FB, UK",
+    "latitude": 51.5118,
+    "longitude": -0.1263,
+    "review": "Incredible Bombay-style cafe. Queue worth it.",
+    "category": "restaurant"
+  },
+  {
+    "name": "Café de Flore",
+    "address": "172 Bd Saint-Germain, 75006 Paris, France",
+    "latitude": 48.8540,
+    "longitude": 2.3327,
+    "review": "Historic cafe, expensive but atmospheric.",
+    "category": "cafe"
+  },
+  {
+    "name": "The Hairy Coo",
+    "address": "Cowgate, Edinburgh EH1 1JQ, UK",
+    "latitude": 55.9484,
+    "longitude": -3.1893,
+    "review": "Great free tour starting point for Edinburgh.",
+    "category": "tour"
+  },
+  {
+    "name": "The Brazen Head",
+    "address": "20 Lower Bridge St, Wood Quay, Dublin 8, Ireland",
+    "latitude": 53.3434,
+    "longitude": -6.2769,
+    "review": "Oldest pub in Dublin. Great live music.",
+    "category": "pub"
+  }
+]

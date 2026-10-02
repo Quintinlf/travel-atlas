@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": { "coordinates": [-0.1276, 51.5074], "type": "Point" },
+      "properties": {
+        "name": "Trafalgar Square",
+        "address": "Trafalgar Square, London, WC2N 5DN, UK",
+        "list_name": "Saved Places",
+        "google_maps_url": "https://maps.google.com/?cid=example1"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-0.1419, 51.5013], "type": "Point" },
+      "properties": {
+        "name": "Tate Modern",
+        "address": "Bankside, London SE1 9TG, UK",
+        "list_name": "Saved Places",
+        "google_maps_url": "https://maps.google.com/?cid=example2"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-0.0754, 51.5089], "type": "Point" },
+      "properties": {
+        "name": "Tower of London",
+        "address": "Tower Hill, London EC3N 4AB, UK",
+        "list_name": "Saved Places"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-0.1245, 51.5007], "type": "Point" },
+      "properties": {
+        "name": "Houses of Parliament",
+        "address": "Westminster, London SW1A 0AA, UK",
+        "list_name": "Saved Places"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-0.1788, 51.4994], "type": "Point" },
+      "properties": {
+        "name": "Natural History Museum",
+        "address": "Cromwell Rd, London SW7 5BD, UK",
+        "category": "museum",
+        "list_name": "Saved Places"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [2.3522, 48.8566], "type": "Point" },
+      "properties": {
+        "name": "Eiffel Tower",
+        "address": "Champ de Mars, 5 Av. Anatole France, 75007 Paris, France",
+        "list_name": "Saved Places"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [2.3308, 48.8603], "type": "Point" },
+      "properties": {
+        "name": "Musée du Louvre",
+        "address": "Rue de Rivoli, 75001 Paris, France",
+        "category": "museum",
+        "list_name": "Saved Places"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [2.3471, 48.8530], "type": "Point" },
+      "properties": {
+        "name": "Notre-Dame Cathedral",
+        "address": "6 Parvis Notre-Dame, 75004 Paris, France",
+        "list_name": "Saved Places"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-3.1883, 55.9533], "type": "Point" },
+      "properties": {
+        "name": "Edinburgh Castle",
+        "address": "Castlehill, Edinburgh EH1 2NG, UK",
+        "list_name": "Saved Places"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-3.1971, 55.9508], "type": "Point" },
+      "properties": {
+        "name": "Royal Mile",
+        "address": "Royal Mile, Edinburgh, Scotland, UK",
+        "list_name": "Saved Places"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-6.2603, 53.3498], "type": "Point" },
+      "properties": {
+        "name": "Trinity College Dublin",
+        "address": "College Green, Dublin 2, Ireland",
+        "list_name": "Saved Places"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-6.2567, 53.3459], "type": "Point" },
+      "properties": {
+        "name": "St Patrick's Cathedral Dublin",
+        "address": "St Patrick's Close, Wood Quay, Dublin 8, Ireland",
+        "list_name": "Saved Places"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [4.8945, 52.3667], "type": "Point" },
+      "properties": {
+        "name": "Rijksmuseum",
+        "address": "Museumstraat 1, 1071 XX Amsterdam, Netherlands",
+        "category": "museum",
+        "list_name": "Saved Places"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [4.9009, 52.3752], "type": "Point" },
+      "properties": {
+        "name": "Anne Frank House",
+        "address": "Westermarkt 20, 1016 GV Amsterdam, Netherlands",
+        "list_name": "Saved Places"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [12.4964, 41.9028], "type": "Point" },
+      "properties": {
+        "name": "Colosseum",
+        "address": "Piazza del Colosseo, 1, 00184 Roma RM, Italy",
+        "list_name": "Saved Places"
+      },
+      "type": "Feature"
+    }
+  ]
+}

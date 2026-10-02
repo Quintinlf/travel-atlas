@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{title}}</title>
+  <style>
+    :root {
+      --ink: #0f172a;
+      --muted: #475569;
+      --accent: #1e3a5f;
+      --accent-light: #e8f1fb;
+      --success: #166534;
+      --warn-bg: #fff7ed;
+      --warn-border: #fdba74;
+      --border: #e2e8f0;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background: #f8fafc;
+      line-height: 1.55;
+    }
+    .hero {
+      position: relative;
+      min-height: 280px;
+      color: #fff;
+      background: linear-gradient(135deg, rgba(15,23,42,.82), rgba(30,58,95,.75)),
+        url("{{hero_image_url}}") center/cover no-repeat;
+      padding: 3rem 2rem 2.5rem;
+    }
+    .hero h1 {
+      margin: 0 0 .5rem;
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: .02em;
+    }
+    .hero p { margin: 0; font-size: 1.1rem; opacity: .95; max-width: 42rem; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.35rem;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 1px 3px rgba(15,23,42,.06);
+    }
+    h2 {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: 1.15rem;
+      margin: 0 0 .75rem;
+      color: var(--accent);
+      letter-spacing: .03em;
+      text-transform: uppercase;
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: .75rem;
+      margin: .5rem 0 0;
+    }
+    .stat {
+      background: var(--accent-light);
+      border-radius: 8px;
+      padding: .75rem .9rem;
+    }
+    .stat .label {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: .72rem;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--muted);
+    }
+    .stat .value {
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin-top: .15rem;
+    }
+    .callout {
+      background: var(--warn-bg);
+      border: 1px solid var(--warn-border);
+      border-radius: 8px;
+      padding: .9rem 1rem;
+      margin: .75rem 0;
+      font-size: .98rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: .92rem;
+    }
+    th, td {
+      border-bottom: 1px solid var(--border);
+      padding: .55rem .4rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { color: var(--muted); font-weight: 600; font-size: .78rem; text-transform: uppercase; }
+    td.num, th.num { text-align: right; }
+    tr.highlight td { background: #f0fdf4; font-weight: 600; }
+    .links a, .btn-link {
+      display: inline-block;
+      margin: .35rem .5rem .35rem 0;
+      padding: .55rem .9rem;
+      background: var(--accent);
+      color: #fff !important;
+      text-decoration: none;
+      border-radius: 6px;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: .88rem;
+    }
+    .links a.secondary {
+      background: #334155;
+    }
+    ol.checklist { padding-left: 1.25rem; }
+    ol.checklist li { margin-bottom: .45rem; }
+    ul.spot-list { padding-left: 1.25rem; margin: .5rem 0; }
+    ul.spot-list li { margin-bottom: .4rem; }
+    .tag {
+      display: inline-block;
+      background: #166534;
+      color: #fff;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: .75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      padding: .2rem .55rem;
+      border-radius: 4px;
+    }
+    .mom-pick { margin-bottom: .5rem; }
+    h3 { font-family: "Segoe UI", system-ui, sans-serif; }
+    .footer {
+      margin-top: 2rem;
+      font-size: .8rem;
+      color: var(--muted);
+      font-family: "Segoe UI", system-ui, sans-serif;
+    }
+    .compare-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .hotel-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+      margin-top: .75rem;
+    }
+    .hotel-card {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      background: #fff;
+    }
+    .hotel-card.highlight { border-color: #166534; box-shadow: 0 0 0 2px #dcfce7; }
+    .hotel-photo {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      display: block;
+      background: #e2e8f0;
+    }
+    .hotel-photo.placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: .85rem;
+    }
+    .hotel-body { padding: .75rem .9rem 1rem; }
+    .hotel-name { margin: 0 0 .35rem; font-size: 1.05rem; }
+    .hotel-name a { color: var(--accent); text-decoration: none; }
+    .hotel-room, .hotel-price { margin: .25rem 0; font-size: .92rem; }
+    .print-only-note { display: none; }
+    @media (max-width: 640px) {
+      .compare-grid { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 1.65rem; }
+    }
+    @media print {
+      body { background: #fff; }
+      .card { box-shadow: none; }
+      .hero {
+        min-height: 140px;
+        padding: 1.75rem 1.25rem 1.5rem;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .wrap { padding: .75rem .5rem 1.5rem; max-width: 100%; }
+      .print-only-note { display: block; font-size: .9rem; color: var(--muted); margin: .35rem 0 .75rem; }
+      /* Never dump raw URLs after links — they overflow and split cards across pages */
+      a[href]::after { content: none !important; }
+      .hotel-grid {
+        display: block;
+        margin-top: .5rem;
+      }
+      .hotel-card {
+        break-inside: avoid;
+        page-break-inside: avoid;
+        margin-bottom: .85rem;
+        overflow: visible;
+        max-width: 100%;
+      }
+      /* PDF for sharing: keep top 6 by price so pages stay readable */
+      .hotel-card:nth-child(n+7) { display: none !important; }
+      .hotel-photo { height: 110px; }
+      .hotel-name { font-size: .95rem; }
+      .hotel-name a { word-break: normal; overflow-wrap: anywhere; }
+      .btn-link, .links a {
+        display: inline-block;
+        margin: .25rem .4rem .25rem 0;
+        padding: .4rem .7rem;
+        font-size: .78rem;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      table { font-size: .85rem; }
+      tr, .stat { break-inside: avoid; page-break-inside: avoid; }
+      h2, h3 { break-after: avoid; }
+      ol.checklist li, ul.spot-list li { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>{{title}}</h1>
+    <p>{{subtitle}}</p>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>Trip at a glance</h2>
+      <div class="stats">
+        <div class="stat"><div class="label">Travelers</div><div class="value">{{travelers}}</div></div>
+        <div class="stat"><div class="label">Arrive Fairbanks</div><div class="value">{{arrive}}</div></div>
+        <div class="stat"><div class="label">Leave Fairbanks</div><div class="value">{{leave}}</div></div>
+        <div class="stat"><div class="label">Nights</div><div class="value">{{night_count}}</div></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Why September / northern lights</h2>
+      <p>{{aurora_intro}}</p>
+      <p><strong>Mean aurora score for your stay:</strong> {{mean_aurora_score}}</p>
+      {{aurora_table}}
+    </section>
+
+    {{aurora_strategy_section}}
+
+    <section class="card">
+      <h2>Flights — {{origin}} to Fairbanks (FAI)</h2>
+      <div class="callout">
+        <strong>{{no_nonstop_summary}}</strong><br />
+        {{hubs_summary}}
+      </div>
+      <p>{{anc_footnote}}</p>
+      <p>
+        <strong>September benchmark (economy, per adult):</strong>
+        ${{benchmark_low}}–${{benchmark_high}}
+        &nbsp;·&nbsp;
+        <strong>For {{travelers}} travelers:</strong>
+        ~${{benchmark_party_low}}–${{benchmark_party_high}}
+      </p>
+      <p class="no-print links">
+        <a class="btn-link" href="{{kayak_url}}">Search on Kayak ({{travelers}} adults)</a>
+        <a class="btn-link secondary" href="{{google_flights_url}}">Search on Google Flights</a>
+        {{aviasales_link}}
+      </p>
+      <p><small>{{flight_note}}</small></p>
+      <div class="callout">
+        <strong>No red-eyes:</strong> {{no_red_eye_summary}}
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Hotels — Fairbanks (2 adults, queen / 2-queen rooms)</h2>
+      <p>{{hotel_intro}}</p>
+      <p class="print-only-note"><em>PDF shows the 6 best-value 2-queen rooms. Open the HTML or Booking.com for the full list — all buttons stay clickable.</em></p>
+      {{hotel_cards}}
+      <p class="links">
+        <a class="btn-link" href="{{booking_url}}">Search all hotels on Booking.com (2 adults)</a>
+      </p>
+    </section>
+
+    {{optional_add_ons_section}}
+
+    {{budget_section}}
+
+    <section class="card mom-pick">
+      <h2>Hot springs — Chena (optional)</h2>
+      {{hot_springs_section}}
+    </section>
+
+    <section class="card">
+      <h2>Local market &amp; produce</h2>
+      {{markets_section}}
+    </section>
+
+    <section class="card">
+      <h2>Alaska &amp; Native foods to try</h2>
+      {{native_foods_section}}
+    </section>
+
+    <section class="card">
+      <h2>Things to see</h2>
+      {{see_section}}
+    </section>
+
+    <section class="card">
+      <h2>Places to eat</h2>
+      {{eat_section}}
+    </section>
+
+    <section class="card">
+      <h2>Things to do &amp; sample schedule</h2>
+      {{activities_section}}
+    </section>
+
+    <section class="card">
+      <h2>Booking checklist</h2>
+      <ol class="checklist">
+        <li><strong>Flights first</strong> — search Kayak or Google Flights. Pick a <strong>daytime</strong> Sep 30 departure from FAI (<strong>no red-eyes</strong>). Reasonable 1–3 hour connections via SEA, PDX, or ANC.</li>
+        <li><strong>Hotel</strong> — book Clarion (or chosen property) with a verified <strong>2 queen</strong> room name before paying. API bed verification may be incomplete — confirm on Booking.com.</li>
+        <li><strong>Airport transport</strong> — plan taxi/rideshare or hotel shuttle (no rental car assumed). Budget ~$80–120 round-trip for 2.</li>
+        <li><strong>Optional: rental car</strong> — only if you want Chena self-drive or DIY aurora from Chena Rd pullouts (see Optional add-ons).</li>
+        <li><strong>Optional: Chena Hot Springs</strong> — Mom's priority if she wants the soak; book day pass (with car) or day shuttle (without car).</li>
+        <li><strong>Optional: guided aurora tour</strong> — recommended without a car, especially if clouds look likely (~2 weeks out).</li>
+        <li><strong>Farmers market</strong> — plan Saturday Sep 26 morning if landing before ~2 pm.</li>
+        <li>Pack warm layers; aurora viewing is often late evening.</li>
+      </ol>
+    </section>
+
+    <footer class="footer">
+      Generated {{generated_at}} · Hero image: Unsplash (northern lights) ·
+      Prices are estimates — confirm live fares and room types before booking.
+    </footer>
+  </main>
+</body>
+</html>

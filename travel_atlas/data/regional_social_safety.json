@@ -1,0 +1,183 @@
+{
+  "_disclaimer": "Personal research notes for situational awareness — not legal advice, not dating advice. Laws, scenes, and risk patterns change. Verify with official sources and local knowledge before you travel or act.",
+  "regions": {
+    "Scotland": {
+      "lgbt_climate": "Same-sex marriage legal (UK). Glasgow and Edinburgh have visible queer nightlife; smaller towns quieter. Bi travelers usually navigate both queer and mixed scenes without legal issues.",
+      "gay_scene": "Apps (Grindr etc.) active in cities; pubs/clubs in Glasgow Merchant City and Edinburgh. Meet in public first; late-night venues can be rowdy but not uniquely dangerous vs other UK cities.",
+      "straight_scene": "Pubs and clubs in city centres; tourist-heavy Edinburgh. Same drink-spiking awareness as elsewhere in the UK.",
+      "bring_someone_back": "Most hotels allow adult guests; some budget hostels restrict overnight visitors — ask desk. Airbnb: check house rules and respect hosts. UK hotels may ask guests to sign in.",
+      "hookup_scams": [
+        "Theft after inviting someone to a room (phone/wallet left out).",
+        "Drink spiking in busy clubs — watch your glass.",
+        "Fake profiles pushing you to a private flat quickly."
+      ],
+      "common_scams": [
+        "Distraction theft in crowded tourist streets (Royal Mile).",
+        "Overpriced or cash-only unofficial tours — book named operators."
+      ],
+      "street_crime": "Pickpocketing in tourist hubs. Knife crime exists in parts of Glasgow as a broader UK urban issue — avoid unknown late-night confrontations; stick to well-lit areas. Guns are rare vs US norms.",
+      "stay_safe": [
+        "Share live location with a friend when meeting someone new.",
+        "Meet in a public bar first; keep valuables off the bed/counter.",
+        "Use licensed taxis or major ride apps late at night.",
+        "Emergency: 999 (or 112)."
+      ],
+      "emergency": "999"
+    },
+    "Ireland": {
+      "lgbt_climate": "Marriage equality since 2015. Dublin has a clear queer scene; Cork smaller but present. Generally socially accepting in cities.",
+      "gay_scene": "Dublin apps + known gay bars; smaller cities quieter. Public meetups preferred.",
+      "straight_scene": "Temple Bar is tourist-heavy — fun but pickpocket and overcharging risk. Prefer neighbourhood pubs for lower scam density.",
+      "bring_someone_back": "Hotels usually fine with adult guests; hostels vary. Airbnb: follow listing rules. Don't assume shared rooms allow overnight guests.",
+      "hookup_scams": [
+        "Room theft after a meet.",
+        "Spiked drinks in busy Temple Bar venues.",
+        "Pressure to move to an unknown private address immediately."
+      ],
+      "common_scams": [
+        "Pickpockets in Temple Bar and on packed Luas/buses.",
+        "Unofficial ticket sellers near attractions."
+      ],
+      "street_crime": "Mostly opportunistic theft. Serious violence uncommon for tourists who avoid fights; stay aware after pubs close.",
+      "stay_safe": [
+        "Keep bags zipped and phones pocketed in crowds.",
+        "Meet publicly; tell someone your plans.",
+        "Emergency: 999 or 112."
+      ],
+      "emergency": "999 / 112"
+    },
+    "England": {
+      "lgbt_climate": "Legal protections strong; London/Manchester/Brighton major scenes. Bi travelers commonly use both queer and mixed apps/venues.",
+      "gay_scene": "London (Soho, Vauxhall, etc.), Manchester Canal Street, Brighton. Apps everywhere in cities.",
+      "straight_scene": "Large nightlife economy; tourist zones (West End, city centres) have higher theft and spiking awareness needs.",
+      "bring_someone_back": "Hotels typically allow registered adult guests; some require ID at desk. Many Airbnbs forbid parties/extra guests — read the house rules before inviting anyone.",
+      "hookup_scams": [
+        "Classic 'come to my place' robbery setups — meet public first.",
+        "Drink spiking.",
+        "Phone theft during intimacy; keep bag in bathroom or locked.",
+        "Romance/advance-fee variants less common in-person but fake profiles exist."
+      ],
+      "common_scams": [
+        "Pickpockets on Tube, at stations, and major sights.",
+        "Fake petitions / charity clipboard distractions.",
+        "ATM shoulder-surfing; use bank vestibules."
+      ],
+      "street_crime": "Pickpocketing is the main tourist risk. Knife crime is a real urban issue in some boroughs — don't engage street confrontations; leave. Firearms rare relative to US.",
+      "stay_safe": [
+        "Mind the gap — and your phone on open-pocket Tube rides.",
+        "Use TfL / licensed black cabs / major apps at night.",
+        "Emergency: 999."
+      ],
+      "emergency": "999"
+    },
+    "Wales": {
+      "lgbt_climate": "UK law; Cardiff has the main scene. Smaller towns quieter.",
+      "gay_scene": "Cardiff apps/venues; elsewhere limited — plan around cities.",
+      "straight_scene": "Pub culture; Cardiff nightlife similar to other mid-size UK cities.",
+      "bring_someone_back": "Same UK hotel/Airbnb pattern — ask if unsure; respect hostel rules.",
+      "hookup_scams": [
+        "Room theft.",
+        "Isolated meets away from city centres — prefer public first."
+      ],
+      "common_scams": [
+        "Tourist-area distraction theft in Cardiff.",
+        "Rural hiking: less scam risk, more weather/navigation risk."
+      ],
+      "street_crime": "Lower tourist density than London; still use normal city caution at night.",
+      "stay_safe": [
+        "Public meetup first.",
+        "Emergency: 999."
+      ],
+      "emergency": "999"
+    },
+    "Northern Ireland": {
+      "lgbt_climate": "Marriage equality later than the rest of UK (2020). Belfast scene exists; be more discreet in some smaller towns.",
+      "gay_scene": "Belfast apps and a smaller venue scene than Dublin/London.",
+      "straight_scene": "Pubs/clubs in Belfast; normal nightlife caution.",
+      "bring_someone_back": "Hotels generally OK; confirm hostel/Airbnb guest rules.",
+      "hookup_scams": [
+        "Room theft.",
+        "Spiking awareness in busy venues."
+      ],
+      "common_scams": [
+        "Pickpockets in tourist clusters.",
+        "Avoid political provocation — tourism is fine, street arguments are not."
+      ],
+      "street_crime": "Mostly ordinary urban theft risks. Be aware of local tensions in specific areas; stick to well-trafficked tourist/nightlife districts at night.",
+      "stay_safe": [
+        "Meet publicly; share location.",
+        "Emergency: 999."
+      ],
+      "emergency": "999"
+    },
+    "France": {
+      "lgbt_climate": "Marriage equality; Paris has a large queer scene; cities generally fine. Rural areas vary in social openness.",
+      "gay_scene": "Paris (Marais etc.) very active; Lyon/Marseille present. Apps widely used.",
+      "straight_scene": "Dense nightlife in cities; tourist zones (around major sights) have higher scam density.",
+      "bring_someone_back": "Hotels usually allow adult guests; some require ID for all overnight visitors (common in France). Airbnb: house rules bind — unauthorized guests can get you kicked out.",
+      "hookup_scams": [
+        "Theft in the room.",
+        "Drink spiking.",
+        "Aggressive 'friendly' strangers steering you to bars with inflated bills (more classic tourist scam adjacent to nightlife)."
+      ],
+      "common_scams": [
+        "Petition / bracelet / gold-ring distraction scams near Louvre, Eiffel, Montmartre.",
+        "Pickpockets on Métro line 1 and RER to airports.",
+        "Fake police ID checks asking to see wallets — real police won't ask you to hand over your wallet casually; ask for a station."
+      ],
+      "street_crime": "Pickpocketing is the #1 tourist issue. Violent street crime against tourists is uncommon but not zero — avoid empty corridors late; keep bags cross-body.",
+      "stay_safe": [
+        "Ignore clipboard petitions; keep moving.",
+        "Front-facing bags on Métro.",
+        "Emergency: 112 (or 17 police)."
+      ],
+      "emergency": "112"
+    },
+    "Spain": {
+      "lgbt_climate": "Strong legal protections; Madrid and Barcelona among Europe's most visible queer scenes. Bi travelers usually fine in cities.",
+      "gay_scene": "Chueca (Madrid), Gaixample (Barcelona), Sitges nearby. Apps very active.",
+      "straight_scene": "Huge nightlife; Las Ramblas / Plaza Mayor tourist zones = pickpocket magnets.",
+      "bring_someone_back": "Hotels generally allow guests; some ask for ID. Many tourist flats (Airbnb) ban extra guests — check rules. Don't leave doors propped in shared buildings.",
+      "hookup_scams": [
+        "Room theft (very common pattern worldwide).",
+        "Spiking.",
+        "Robbery setups via apps — public meetup non-negotiable.",
+        "Someone 'helping' with a spilled drink / mustard distraction while an accomplice steals."
+      ],
+      "common_scams": [
+        "Pickpockets on Las Ramblas, Metro, beaches.",
+        "Three-card monte / shell games.",
+        "Fake petition and distraction teams."
+      ],
+      "street_crime": "Pickpocketing is endemic in top tourist corridors. Violent muggings less common but happen at night in isolated spots — stick to busy streets; don't follow strangers to ATMs.",
+      "stay_safe": [
+        "Nothing valuable on café tabletops.",
+        "Beach: use hotel safe; don't leave phones under towels.",
+        "Emergency: 112."
+      ],
+      "emergency": "112"
+    },
+    "Portugal": {
+      "lgbt_climate": "Legal equality; Lisbon and Porto have active scenes. Generally relaxed in cities.",
+      "gay_scene": "Lisbon Príncipe Real area and apps; Porto smaller.",
+      "straight_scene": "Bairro Alto / Cais do Sodré nightlife; tourist denser = higher theft awareness.",
+      "bring_someone_back": "Hotels usually OK; Airbnb guest rules vary — confirm. Older buildings: be mindful of building entry norms.",
+      "hookup_scams": [
+        "Room theft.",
+        "Spiking in busy bars.",
+        "App meets that push immediately to isolated viewpoints at night — prefer busy areas."
+      ],
+      "common_scams": [
+        "Pickpockets on trams (esp. 28) and in Alfama crowds.",
+        "Distraction theft near viewpoints."
+      ],
+      "street_crime": "Mostly opportunistic theft. Violent crime against tourists is relatively low; still use normal night caution in empty streets.",
+      "stay_safe": [
+        "Zip bags on tram 28.",
+        "Public first meet; share location.",
+        "Emergency: 112."
+      ],
+      "emergency": "112"
+    }
+  }
+}

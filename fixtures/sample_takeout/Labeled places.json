@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Home",
+    "address": "New York, NY, USA",
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "list_name": "Labeled Places"
+  },
+  {
+    "name": "Work",
+    "address": "Midtown, New York, NY, USA",
+    "latitude": 40.7549,
+    "longitude": -73.9840,
+    "list_name": "Labeled Places"
+  },
+  {
+    "name": "Favourite Hotel Paris",
+    "address": "Hôtel du Louvre, Place André-Malraux, 75001 Paris, France",
+    "latitude": 48.8638,
+    "longitude": 2.3365,
+    "list_name": "Labeled Places",
+    "notes": "Stay here next trip"
+  }
+]

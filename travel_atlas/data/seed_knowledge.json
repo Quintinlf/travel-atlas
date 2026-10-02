@@ -1,0 +1,786 @@
+{
+  "categories": [
+    {
+      "key": "language",
+      "display_name": "Language",
+      "description": "Practical communication and scripts.",
+      "sort_order": 10
+    },
+    {
+      "key": "culture",
+      "display_name": "Culture & etiquette",
+      "description": "Social norms and respectful participation.",
+      "sort_order": 20
+    },
+    {
+      "key": "history",
+      "display_name": "History & traditions",
+      "description": "Context for places, people, and traditions.",
+      "sort_order": 30
+    },
+    {
+      "key": "food",
+      "display_name": "Food",
+      "description": "Cuisine, markets, and regional food culture.",
+      "sort_order": 40
+    },
+    {
+      "key": "health",
+      "display_name": "Health & safety",
+      "description": "General travel-health education; verify current official advice.",
+      "sort_order": 50
+    },
+    {
+      "key": "logistics",
+      "display_name": "Logistics",
+      "description": "Arrival, transit, payment, and practical travel context.",
+      "sort_order": 60
+    },
+    {
+      "key": "nature",
+      "display_name": "Nature",
+      "description": "Seasonality and natural environments.",
+      "sort_order": 70
+    },
+    {
+      "key": "architecture",
+      "display_name": "Architecture",
+      "description": "Built environment and significant styles.",
+      "sort_order": 80
+    },
+    {
+      "key": "wellness_substances",
+      "display_name": "Substances & wellness",
+      "description": "Personal notes on local drug laws and pharmacy access.",
+      "sort_order": 90
+    },
+    {
+      "key": "microbiome",
+      "display_name": "Microbiome & food safety",
+      "description": "Personal notes on food and water safety.",
+      "sort_order": 100
+    },
+    {
+      "key": "beliefs_spirituality",
+      "display_name": "Beliefs & spirituality",
+      "description": "Personal notes on religious practices and local beliefs.",
+      "sort_order": 110
+    }
+  ],
+  "topics": [
+    {
+      "key": "primary_languages",
+      "category_key": "language",
+      "display_name": "Languages and scripts",
+      "description": "Languages and writing systems relevant to visitors."
+    },
+    {
+      "key": "visitor_phrases",
+      "category_key": "language",
+      "display_name": "Visitor language context",
+      "description": "Context for practical language preparation."
+    },
+    {
+      "key": "etiquette",
+      "category_key": "culture",
+      "display_name": "Everyday etiquette",
+      "description": "Respectful behaviour in ordinary settings."
+    },
+    {
+      "key": "spiritual_traditions",
+      "category_key": "history",
+      "display_name": "Spiritual traditions",
+      "description": "Traditions that shape sites and practices."
+    },
+    {
+      "key": "historical_context",
+      "category_key": "history",
+      "display_name": "Historical context",
+      "description": "High-level historical orientation."
+    },
+    {
+      "key": "cuisine",
+      "category_key": "food",
+      "display_name": "Cuisine and food culture",
+      "description": "Food traditions and respectful food exploration."
+    },
+    {
+      "key": "fermented_foods",
+      "category_key": "food",
+      "display_name": "Fermented food culture",
+      "description": "Educational context for regional fermented foods."
+    },
+    {
+      "key": "health_advisory",
+      "category_key": "health",
+      "display_name": "Travel health advisory",
+      "description": "General, sourced health information for travellers."
+    },
+    {
+      "key": "emergency_context",
+      "category_key": "health",
+      "display_name": "Emergency context",
+      "description": "Emergency readiness information."
+    },
+    {
+      "key": "public_transport",
+      "category_key": "logistics",
+      "display_name": "Public transport",
+      "description": "Visitor transit orientation."
+    },
+    {
+      "key": "payment_context",
+      "category_key": "logistics",
+      "display_name": "Payment context",
+      "description": "Practical payment information."
+    },
+    {
+      "key": "seasonality",
+      "category_key": "nature",
+      "display_name": "Seasonality",
+      "description": "Seasonal travel considerations."
+    },
+    {
+      "key": "urban_architecture",
+      "category_key": "architecture",
+      "display_name": "Urban architecture",
+      "description": "Architectural orientation."
+    },
+    {
+      "key": "local_drug_laws",
+      "category_key": "wellness_substances",
+      "display_name": "Local drug laws",
+      "description": "Personal notes on legal status and customs."
+    },
+    {
+      "key": "pharmacy_medicine",
+      "category_key": "wellness_substances",
+      "display_name": "Pharmacy & medicine",
+      "description": "Personal notes on pharmacy access and OTC medicines."
+    },
+    {
+      "key": "food_water_safety",
+      "category_key": "microbiome",
+      "display_name": "Food & water safety",
+      "description": "Personal notes on food and water safety."
+    },
+    {
+      "key": "religious_practices",
+      "category_key": "beliefs_spirituality",
+      "display_name": "Religious practices",
+      "description": "Personal notes on religious practices."
+    },
+    {
+      "key": "folk_beliefs",
+      "category_key": "beliefs_spirituality",
+      "display_name": "Folk beliefs",
+      "description": "Personal notes on local beliefs and customs."
+    },
+    {
+      "key": "ecological_heritage",
+      "category_key": "nature",
+      "display_name": "Ecological heritage",
+      "description": "Native species and ecological origin stories relevant to a place."
+    },
+    {
+      "key": "seasonal_traditions",
+      "category_key": "history",
+      "display_name": "Seasonal traditions",
+      "description": "Historically documented seasonal and pastoral/agricultural traditions."
+    }
+  ],
+  "areas": [
+    {
+      "id": "country-jp",
+      "name": "Japan",
+      "area_type": "country",
+      "country_code": "JP",
+      "parent_id": null,
+      "latitude": 36.2048,
+      "longitude": 138.2529
+    },
+    {
+      "id": "city-tokyo",
+      "name": "Tokyo",
+      "area_type": "city",
+      "country_code": "JP",
+      "parent_id": "country-jp",
+      "latitude": 35.6762,
+      "longitude": 139.6503
+    },
+    {
+      "id": "country-kz",
+      "name": "Kazakhstan",
+      "area_type": "country",
+      "country_code": "KZ",
+      "parent_id": null,
+      "latitude": 48.0196,
+      "longitude": 66.9237
+    },
+    {
+      "id": "city-almaty",
+      "name": "Almaty",
+      "area_type": "city",
+      "country_code": "KZ",
+      "parent_id": "country-kz",
+      "latitude": 43.222,
+      "longitude": 76.8512
+    }
+  ],
+  "sources": [
+    {
+      "id": "jnto-etiquette",
+      "title": "Japanese Etiquette",
+      "publisher": "Japan National Tourism Organization",
+      "source_url": "https://www.japan.travel/en/guide/japanese-etiquette/",
+      "enrichment_url": "https://www.japan.travel/en/guide/",
+      "retrieved_at": "2026-07-17",
+      "license_note": "Linked reference; review before redistribution."
+    },
+    {
+      "id": "jnto-food",
+      "title": "Japanese Food",
+      "publisher": "Japan National Tourism Organization",
+      "source_url": "https://www.japan.travel/en/guide/japanese-food/",
+      "enrichment_url": "https://www.japan.travel/en/guide/",
+      "retrieved_at": "2026-07-17",
+      "license_note": "Linked reference; review before redistribution."
+    },
+    {
+      "id": "mofa-language",
+      "title": "Japan: Geography and Climate",
+      "publisher": "Ministry of Foreign Affairs of Japan",
+      "source_url": "https://www.mofa.go.jp/region/asia-paci/japan/geography/index.html",
+      "enrichment_url": "https://www.mofa.go.jp/",
+      "retrieved_at": "2026-07-17",
+      "license_note": "Linked reference; review before redistribution."
+    },
+    {
+      "id": "japan-guide-transport",
+      "title": "Transportation in Tokyo",
+      "publisher": "Japan Guide",
+      "source_url": "https://www.japan-guide.com/e/e2017.html",
+      "enrichment_url": "https://www.japan-guide.com/e/e2017.html",
+      "retrieved_at": "2026-07-17",
+      "license_note": "Supplementary practical reference; confirm current details."
+    },
+    {
+      "id": "who-japan",
+      "title": "International travel and health",
+      "publisher": "World Health Organization",
+      "source_url": "https://www.who.int/health-topics/travel-and-health",
+      "enrichment_url": "https://www.who.int/health-topics/travel-and-health",
+      "retrieved_at": "2026-07-17",
+      "license_note": "General education only; seek professional and official country-specific advice."
+    },
+    {
+      "id": "tokyo-metro",
+      "title": "Tokyo Metro Guide",
+      "publisher": "Tokyo Metro",
+      "source_url": "https://www.tokyometro.jp/en/",
+      "enrichment_url": "https://www.tokyometro.jp/en/",
+      "retrieved_at": "2026-07-17",
+      "license_note": "Official operator reference; check live service changes."
+    },
+    {
+      "id": "japan-heritage",
+      "title": "Japan Heritage",
+      "publisher": "Agency for Cultural Affairs, Government of Japan",
+      "source_url": "https://japan-heritage.bunka.go.jp/en/",
+      "enrichment_url": "https://japan-heritage.bunka.go.jp/en/",
+      "retrieved_at": "2026-07-17",
+      "license_note": "Linked reference; review before redistribution."
+    },
+    {
+      "id": "jnto-cherry-blossoms",
+      "title": "Cherry Blossoms",
+      "publisher": "Japan National Tourism Organization",
+      "source_url": "https://www.japan.travel/en/things-to-do/nature/cherry-blossoms/",
+      "enrichment_url": "https://www.japan.travel/en/things-to-do/nature/cherry-blossoms/",
+      "retrieved_at": "2026-07-26",
+      "license_note": "Linked reference; review before redistribution."
+    },
+    {
+      "id": "smithsonian-wild-apple",
+      "title": "Saving the Apple's Ancient Ancestor in the Forests of Kazakhstan",
+      "publisher": "Smithsonian Magazine",
+      "source_url": "https://www.smithsonianmag.com/travel/saving-the-apples-ancient-ancestor-in-the-forests-of-kazakhstan-180983493/",
+      "enrichment_url": null,
+      "retrieved_at": "2026-07-26",
+      "license_note": "Popular-science secondary source; confirm details against primary USDA-ARS germplasm literature before elevating confidence to high."
+    },
+    {
+      "id": "ncbi-malus-sieversii",
+      "title": "Genetic diversity of wild apple (Malus sieversii) populations in the Tian Shan Mountains, Kazakhstan",
+      "publisher": "NCBI PMC (Frontiers in Plant Science)",
+      "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7829876/",
+      "enrichment_url": null,
+      "retrieved_at": "2026-07-26",
+      "license_note": "Peer-reviewed primary literature; open access."
+    },
+    {
+      "id": "researchgate-pleiades-kazakh",
+      "title": "Pleiades in the Kazakh Ethnoastronomy",
+      "publisher": "ResearchGate (conference paper)",
+      "source_url": "https://www.researchgate.net/publication/311570451_Pleiades_in_the_Kazakh_Ethnoastronomy",
+      "enrichment_url": null,
+      "retrieved_at": "2026-07-26",
+      "license_note": "Academic secondary source; verify pagination/citation details before formal reuse."
+    },
+    {
+      "id": "unesco-nauryz",
+      "title": "Nauryz, Nowruz, Novruz, Nowrouz, Nawrouz, Nauroz, Nooruz, Navruz, Nevruz, Nowruz",
+      "publisher": "UNESCO Intangible Cultural Heritage",
+      "source_url": "https://ich.unesco.org/en/RL/nowruz-01161",
+      "enrichment_url": "https://ich.unesco.org/en/lists",
+      "retrieved_at": "2026-07-26",
+      "license_note": "PLACEHOLDER: URL reconstructed from a search-result element id (01161); verify the exact ich.unesco.org slug before marking this claim reviewed."
+    }
+  ],
+  "claims": [
+    {
+      "id": "jp-language",
+      "area_id": "country-jp",
+      "category_key": "language",
+      "topic_key": "primary_languages",
+      "value": {
+        "title": "Japanese language and scripts",
+        "body": "Japanese is the national language. Visitors will encounter a mix of kanji, hiragana, katakana, and Roman-letter signage; preparing place names and essential phrases can reduce friction."
+      },
+      "source_id": "mofa-language",
+      "confidence": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "jp-etiquette",
+      "area_id": "country-jp",
+      "category_key": "culture",
+      "topic_key": "etiquette",
+      "value": {
+        "title": "Everyday etiquette",
+        "body": "Courtesy, awareness of shared space, and attention to local guidance are useful visitor habits. Practices vary by setting, so observe posted instructions and the people around you."
+      },
+      "source_id": "jnto-etiquette",
+      "confidence": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "jp-spiritual",
+      "area_id": "country-jp",
+      "category_key": "history",
+      "topic_key": "spiritual_traditions",
+      "value": {
+        "title": "Shinto and Buddhist traditions",
+        "body": "Shinto shrines and Buddhist temples are important parts of Japan's cultural landscape. Site-specific guidance helps visitors participate respectfully."
+      },
+      "source_id": "japan-heritage",
+      "confidence": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "jp-history",
+      "area_id": "country-jp",
+      "category_key": "history",
+      "topic_key": "historical_context",
+      "value": {
+        "title": "Layered historical context",
+        "body": "Japan's historic sites, regional traditions, and contemporary cities reflect distinct periods and local histories. Treat regional perspectives as part of trip research rather than assuming one national narrative."
+      },
+      "source_id": "japan-heritage",
+      "confidence": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "jp-cuisine",
+      "area_id": "country-jp",
+      "category_key": "food",
+      "topic_key": "cuisine",
+      "value": {
+        "title": "Regional food cultures",
+        "body": "Japanese cuisine is regionally diverse. Use local markets, seasonal ingredients, and clearly labelled establishments to explore food traditions responsibly."
+      },
+      "source_id": "jnto-food",
+      "confidence": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "jp-fermented",
+      "area_id": "country-jp",
+      "category_key": "food",
+      "topic_key": "fermented_foods",
+      "value": {
+        "title": "Fermented food traditions",
+        "body": "Miso, soy sauce, natto, and other fermented foods are important cultural products with varied regional practices. This is food-culture education, not a health claim."
+      },
+      "source_id": "jnto-food",
+      "confidence": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "jp-health",
+      "area_id": "country-jp",
+      "category_key": "health",
+      "topic_key": "health_advisory",
+      "value": {
+        "title": "Health information should be current",
+        "body": "Health requirements and advisories depend on itinerary and traveller circumstances. Consult current official public-health and clinical-travel guidance before departure; this Atlas entry is not medical advice."
+      },
+      "source_id": "who-japan",
+      "confidence": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "jp-season",
+      "area_id": "country-jp",
+      "category_key": "nature",
+      "topic_key": "seasonality",
+      "value": {
+        "title": "Climate varies by region and season",
+        "body": "Japan extends across varied climatic regions. Check destination-specific seasonal conditions and hazard information when planning."
+      },
+      "source_id": "mofa-language",
+      "confidence": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "tokyo-language",
+      "area_id": "city-tokyo",
+      "category_key": "language",
+      "topic_key": "visitor_phrases",
+      "value": {
+        "title": "Prepare location-specific language",
+        "body": "Keep the Japanese and Roman-letter names of accommodation, stations, restaurants, and destinations available offline. This creates a later bridge to itinerary-based lessons."
+      },
+      "source_id": "japan-guide-transport",
+      "confidence": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "tokyo-etiquette",
+      "area_id": "city-tokyo",
+      "category_key": "culture",
+      "topic_key": "etiquette",
+      "value": {
+        "title": "Shared urban space",
+        "body": "Tokyo's dense public spaces reward careful attention to local signage, queues, and quiet shared environments."
+      },
+      "source_id": "jnto-etiquette",
+      "confidence": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "tokyo-transit",
+      "area_id": "city-tokyo",
+      "category_key": "logistics",
+      "topic_key": "public_transport",
+      "value": {
+        "title": "Transit planning",
+        "body": "Tokyo has extensive rail and subway networks. Store route and station details before travel, and use official operator information for service changes."
+      },
+      "source_id": "tokyo-metro",
+      "confidence": "high",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "tokyo-payment",
+      "area_id": "city-tokyo",
+      "category_key": "logistics",
+      "topic_key": "payment_context",
+      "value": {
+        "title": "Payment preparation",
+        "body": "Payment acceptance varies by business. Carry appropriate payment options and confirm current policies with providers when needed."
+      },
+      "source_id": "japan-guide-transport",
+      "confidence": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "tokyo-architecture",
+      "area_id": "city-tokyo",
+      "category_key": "architecture",
+      "topic_key": "urban_architecture",
+      "value": {
+        "title": "Historic and contemporary cityscape",
+        "body": "Tokyo combines historic precincts, postwar urban fabric, and contemporary architecture. Research individual neighbourhoods and sites for context before visiting."
+      },
+      "source_id": "japan-heritage",
+      "confidence": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "tokyo-health",
+      "area_id": "city-tokyo",
+      "category_key": "health",
+      "topic_key": "emergency_context",
+      "value": {
+        "title": "Plan for urgent needs",
+        "body": "Before departure, identify emergency contacts, insurance support, and nearby care options appropriate to your itinerary. Verify current official guidance locally."
+      },
+      "source_id": "who-japan",
+      "confidence": "medium",
+      "review_status": "reviewed"
+    },
+    {
+      "id": "tokyo-sakura",
+      "area_id": "city-tokyo",
+      "category_key": "nature",
+      "topic_key": "seasonality",
+      "value": {
+        "title": "Cherry blossom (sakura) season",
+        "body": "Tokyo's cherry blossom season is a defining seasonal marker of the city's calendar. JNTO tracks a bloom forecast that moves south to north across Japan each year; Tokyo's average full-bloom date has historically fallen in late March to early April, though exact timing shifts year to year with spring temperatures. Hanami (blossom viewing) gatherings in parks are a widely observed seasonal tradition during this window."
+      },
+      "source_id": "jnto-cherry-blossoms",
+      "confidence": "high",
+      "review_status": "reviewed",
+      "season_start_month_day": "03-20",
+      "season_end_month_day": "04-10",
+      "season_label": "Cherry blossom (sakura) season"
+    },
+    {
+      "id": "kz-wild-apple",
+      "area_id": "city-almaty",
+      "category_key": "nature",
+      "topic_key": "ecological_heritage",
+      "value": {
+        "title": "Native homeland of the wild apple",
+        "body": "The foothills of the Tian Shan mountains around Almaty are the documented center of origin of Malus sieversii, the principal wild ancestor of the domesticated apple. USDA-ARS-led germplasm expeditions collected wild apple material here from the late 1980s through the 1990s, and Almaty's own name is popularly linked to the apple. Spring bloom in these wild apple forests is an approximate, regionally variable window, not a precise phenological calendar."
+      },
+      "source_id": "smithsonian-wild-apple",
+      "confidence": "medium",
+      "review_status": "reviewed",
+      "season_start_month_day": "04-15",
+      "season_end_month_day": "05-31",
+      "season_label": "Wild apple forest bloom (approximate)"
+    },
+    {
+      "id": "kz-pastoral-calendar",
+      "area_id": "country-kz",
+      "category_key": "history",
+      "topic_key": "seasonal_traditions",
+      "value": {
+        "title": "Pleiades-based pastoral seasonal calendar",
+        "body": "Kazakh and other Central Asian nomadic peoples historically used the appearance and disappearance of the Pleiades star cluster (locally 'Urker'), alongside other seasonal markers, as part of a lunar-stellar calendar that guided the timing of seasonal herd movements (transhumance). This entry describes documented ethnoastronomical tradition and its general seasonal association with late-spring pastoral activity; it is not a calculated heliacal-rising date for any specific year or location."
+      },
+      "source_id": "researchgate-pleiades-kazakh",
+      "confidence": "medium",
+      "review_status": "reviewed",
+      "season_start_month_day": "05-15",
+      "season_end_month_day": "06-15",
+      "season_label": "Traditional start of spring pastoral movement"
+    },
+    {
+      "id": "kz-nauryz",
+      "area_id": "country-kz",
+      "category_key": "history",
+      "topic_key": "seasonal_traditions",
+      "value": {
+        "title": "Nauryz: spring equinox new year",
+        "body": "Nauryz, the Central Asian celebration of the spring equinox and new year, is inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity (2009, extended 2016) and is publicly celebrated across Kazakhstan with rituals tied to renewal and the agricultural and pastoral calendar."
+      },
+      "source_id": "unesco-nauryz",
+      "confidence": "medium",
+      "review_status": "needs_review",
+      "season_start_month_day": "03-15",
+      "season_end_month_day": "03-25",
+      "season_label": "Nauryz (spring equinox festival)"
+    }
+  ],
+  "coverage_rules": [
+    {
+      "area_type": "country",
+      "category_key": "language",
+      "topic_key": "primary_languages",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "language",
+      "topic_key": "visitor_phrases",
+      "weight": 0.5,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "culture",
+      "topic_key": "etiquette",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "history",
+      "topic_key": "spiritual_traditions",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "history",
+      "topic_key": "historical_context",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "history",
+      "topic_key": "seasonal_traditions",
+      "weight": 0.5,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "food",
+      "topic_key": "cuisine",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "food",
+      "topic_key": "fermented_foods",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "health",
+      "topic_key": "health_advisory",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "health",
+      "topic_key": "emergency_context",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "nature",
+      "topic_key": "seasonality",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "nature",
+      "topic_key": "ecological_heritage",
+      "weight": 0.5,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "logistics",
+      "topic_key": "public_transport",
+      "weight": 0.5,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "logistics",
+      "topic_key": "payment_context",
+      "weight": 0.5,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "microbiome",
+      "topic_key": "food_water_safety",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "wellness_substances",
+      "topic_key": "local_drug_laws",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "wellness_substances",
+      "topic_key": "pharmacy_medicine",
+      "weight": 0.5,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "beliefs_spirituality",
+      "topic_key": "religious_practices",
+      "weight": 0.5,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "country",
+      "category_key": "beliefs_spirituality",
+      "topic_key": "folk_beliefs",
+      "weight": 0.5,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "city",
+      "category_key": "language",
+      "topic_key": "visitor_phrases",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "city",
+      "category_key": "culture",
+      "topic_key": "etiquette",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "city",
+      "category_key": "logistics",
+      "topic_key": "public_transport",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "city",
+      "category_key": "logistics",
+      "topic_key": "payment_context",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "city",
+      "category_key": "architecture",
+      "topic_key": "urban_architecture",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "city",
+      "category_key": "health",
+      "topic_key": "emergency_context",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "city",
+      "category_key": "food",
+      "topic_key": "cuisine",
+      "weight": 1.0,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "city",
+      "category_key": "history",
+      "topic_key": "historical_context",
+      "weight": 0.5,
+      "minimum_confidence": "medium"
+    },
+    {
+      "area_type": "city",
+      "category_key": "nature",
+      "topic_key": "seasonality",
+      "weight": 0.5,
+      "minimum_confidence": "medium"
+    }
+  ]
+}

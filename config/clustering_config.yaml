@@ -1,0 +1,17 @@
+# Phase 1 — clustering and import configuration
+# All values are runtime-overridable from the Streamlit dashboard.
+
+clustering:
+  distance_threshold_km: 15.0   # Group pins within this radius
+  min_pins_per_cluster: 1       # Discard clusters smaller than this
+
+deduplication:
+  proximity_m: 100.0            # Remove duplicates within 100 m of each other
+
+takeout_parsing:
+  skip_missing_coords: true     # Skip records without lat/lng
+
+display:
+  map_zoom_default: 3
+  max_pins_on_map: 10000        # Cap for browser performance
+  top_destinations_n: 15

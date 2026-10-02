@@ -1,0 +1,136 @@
+travel:
+  days: 21
+  max_locations: 10
+  places_per_location: 5
+  include_api_calls: false
+  default_country: ""
+  place_query_template: "cultural heritage sites in {location}"
+  user_pins_path: ""
+
+data:
+  geojson_path: ""
+  kml_path: ""
+
+pins:
+  default_visit_duration_hours: 1.0
+  category_durations:
+    temple: 1.5
+    museum: 2.0
+    food: 1.5
+    nightlife: 2.0
+    nature: 2.0
+    shopping: 1.5
+    transit: 0.5
+
+validation:
+  duplicate_distance_km: 0.1
+
+clustering:
+  eps_km: 15
+  min_samples: 1
+
+scoring:
+  max_pins_per_day: 4
+  weights:
+    nearby_pins: 1.0
+    priority: 1.0
+    transit_time: 1.0
+
+planning:
+  max_recommendations_per_section: 8
+  philosophy: maximum_personal_joy_per_dollar
+  default_energy: medium
+  exploration_mix:
+    personalized: 0.9
+    discovery: 0.1
+  max_pins_per_day:
+    slow: 2
+    medium: 4
+    fast: 6
+  weights:
+    interest_tag_overlap: 0.18
+    joy_per_dollar: 0.14
+    saved_pin_boost: 0.16
+    pin_affinity: 0.10
+    rating_history: 0.10
+    theme_fit: 0.08
+    atlas_claim_relevance: 0.06
+    pace_fit: 0.05
+    energy_fit: 0.05
+    budget_fit: 0.04
+    hidden_gem: 0.03
+    transport_fit: 0.01
+    wildcard: 0.0
+  category_costs:
+    market_food: 25
+    museum_history: 15
+    temple_spirituality: 5
+    nature_gardens: 0
+    transport: 10
+    accommodation: 80
+    nightlife: 40
+    shopping: 50
+    general_travel: 20
+  category_durations:
+    market_food: 1.5
+    museum_history: 2.0
+    temple_spirituality: 1.5
+    nature_gardens: 2.0
+    transport: 0.5
+    accommodation: 0.5
+    nightlife: 2.0
+    shopping: 1.5
+    general_travel: 1.0
+  budget_tendency_daily:
+    frugal: 40
+    moderate: 100
+    comfortable: 200
+    luxury: 400
+  food_facets:
+    - regional_foods
+    - seasonal_foods
+    - markets
+    - groceries
+    - cooking_classes
+    - historical_dishes
+    - desserts
+    - street_food
+    - local_drinks
+    - ingredients
+    - recipes_to_recreate
+
+transit_burden:
+  average_speed_kph: 50
+  multipliers:
+    walking: 0.2
+    subway: 0.5
+    train: 1.0
+    bus: 0.8
+    domestic_flight: 2.5
+    border_crossing: 3.5
+
+research:
+  enable_network_calls: false
+  max_terms: 8
+  local_hint_countries_per_term: 3
+
+outputs:
+  dir: "outputs"
+
+dna:
+  reference_panel_1000g_path: ""
+  min_shared_snps: 300
+  top_n_matches: 25
+  blend_weight_research: 0.6
+  blend_weight_dna: 0.4
+  source_raw_dna_path: ""
+
+credentials:
+  google_maps_api_key_env: GOOGLE_MAPS_API_KEY
+  google_service_account_json_env: GOOGLE_SERVICE_ACCOUNT_JSON
+  google_docs_target_document_id_env: GOOGLE_DOCS_TARGET_DOCUMENT_ID
+  # Amadeus Self-Service (hotel list + offers). Sandbox by default.
+  # Set AMADEUS_ENV=production for live inventory.
+  amadeus_client_id_env: AMADEUS_CLIENT_ID
+  amadeus_client_secret_env: AMADEUS_CLIENT_SECRET
+  amadeus_env_env: AMADEUS_ENV

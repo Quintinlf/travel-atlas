@@ -1,0 +1,17 @@
+# Personal data — never publish
+Takeout/
+*.db
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Generated
+output/
+outputs/
+*.log

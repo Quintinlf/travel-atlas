@@ -1,0 +1,27 @@
+# Phase 1 — Google Maps Pin Intelligence System
+# Install with: pip install -r travel/requirements.txt
+
+streamlit>=1.36
+streamlit-folium>=0.20
+folium>=0.16
+pandas>=2.0
+plotly>=5.18
+pyyaml>=6.0
+reverse-geocode>=1.4
+
+# Astronomy (local, offline sky events -- see travel_atlas/astronomy.py)
+astral>=3.2,<4.0
+# Astrocartography via Astrology_project / swisseph (timezone for natal chart)
+pytz>=2024.1
+pyswisseph>=2.10
+# Static ACG maps for HTML/PDF briefings
+Pillow>=10.0
+matplotlib>=3.8
+
+# Knowledge ingestion (travel_atlas/ingest). Only the extraction step needs this --
+# fetching sources and listing coverage gaps work without it.
+anthropic>=0.69
+
+# Testing
+pytest>=8.0
+pytest-cov>=5.0

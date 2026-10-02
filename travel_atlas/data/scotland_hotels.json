@@ -1,0 +1,158 @@
+{
+  "intro": "Look-into shortlist for the Scotland opener (EDI land → Dundee night 1 → Glasgow nights 2–3). Starred properties advertise an airport shuttle (EDI or GLA). Confirm shuttle hours and fees before booking — not reservations. Photos are look/atmosphere references (not official booking gallery shots).",
+  "cities": [
+    {
+      "city": "Edinburgh",
+      "airport": "EDI",
+      "role": "Landing, car pickup Day 1, and car drop Day 2 afternoon.",
+      "hotels": [
+        {
+          "name": "Holiday Inn Express Edinburgh Airport",
+          "area": "Ingliston / EDI (0.5 mi)",
+          "why": "24-hour shuttle to EDI stance 10; useful if you overnight near the airport before the car loop or after drop-off.",
+          "airport_shuttle": true,
+          "shuttle_note": "Paid return shuttle (~£2.50 adult); ticket at reception.",
+          "lat": 55.9481,
+          "lng": -3.3505,
+          "booking_url": "https://www.booking.com/hotel/gb/holiday-inn-express-edinburgh-airport.html",
+          "maps_url": "https://www.google.com/maps/search/Holiday+Inn+Express+Edinburgh+Airport/@55.9481,-3.3505,15z",
+          "photo_url": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          "name": "DoubleTree by Hilton Edinburgh Airport",
+          "area": "Newbridge / EDI",
+          "why": "Airport-area full service with parking; good backup if Express is full.",
+          "airport_shuttle": true,
+          "shuttle_note": "Hotel-run EDI shuttle — confirm schedule when booking.",
+          "lat": 55.9372,
+          "lng": -3.3728,
+          "booking_url": "https://www.booking.com/hotel/gb/doubletree-by-hilton-hotel-edinburgh-airport.html",
+          "maps_url": "https://www.google.com/maps/search/DoubleTree+by+Hilton+Edinburgh+Airport/@55.9372,-3.3728,15z",
+          "photo_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          "name": "The Balmoral Hotel",
+          "area": "Princes Street / Waverley",
+          "why": "Classic city base steps from Waverley — great for Edinburgh pins, not for airport logistics.",
+          "airport_shuttle": false,
+          "shuttle_note": "No hotel airport shuttle; Airlink 100 / taxi to EDI.",
+          "lat": 55.953,
+          "lng": -3.1894,
+          "booking_url": "https://www.booking.com/hotel/gb/the-balmoral.html",
+          "maps_url": "https://www.google.com/maps/search/The+Balmoral+Hotel/@55.953,-3.1894,15z",
+          "photo_url": "https://images.unsplash.com/photo-1528702748617-c828d3a1f7a6?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          "name": "Premier Inn Edinburgh City Centre (Princes Street)",
+          "area": "City centre",
+          "why": "Reliable midscale near Old Town pins; walkable to Waverley for the Glasgow train.",
+          "airport_shuttle": false,
+          "shuttle_note": "No airport shuttle.",
+          "lat": 55.9535,
+          "lng": -3.1917,
+          "booking_url": "https://www.booking.com/hotel/gb/premier-inn-edinburgh-city-centre-princes-st.html",
+          "maps_url": "https://www.google.com/maps/search/Premier+Inn+Edinburgh+City+Centre+%28Princes+Street%29/@55.9535,-3.1917,15z",
+          "photo_url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=900&q=80"
+        }
+      ]
+    },
+    {
+      "city": "Dundee",
+      "airport": "EDI",
+      "role": "Night 1 after St Andrews / Fife — ~1 hour from EDI; expect self-drive or taxi, not an airport shuttle.",
+      "hotels": [
+        {
+          "name": "Malmaison Dundee",
+          "area": "Waterfront",
+          "why": "Waterfront stay after the Fife loop; walkable restaurants.",
+          "airport_shuttle": false,
+          "shuttle_note": "No EDI shuttle (too far).",
+          "lat": 56.4584,
+          "lng": -2.9695,
+          "booking_url": "https://www.booking.com/hotel/gb/malmaison-dundee.html",
+          "maps_url": "https://www.google.com/maps/search/Malmaison+Dundee/@56.4584,-2.9695,15z",
+          "photo_url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          "name": "Apex City Quay Hotel & Spa",
+          "area": "City Quay",
+          "why": "Quayside base with parking for the rental car overnight.",
+          "airport_shuttle": false,
+          "shuttle_note": "No EDI shuttle.",
+          "lat": 56.4614,
+          "lng": -2.9665,
+          "booking_url": "https://www.booking.com/hotel/gb/apex-city-quay-hotel-and-spa.html",
+          "maps_url": "https://www.google.com/maps/search/Apex+City+Quay+Hotel+%26+Spa/@56.4614,-2.9665,15z",
+          "photo_url": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          "name": "Premier Inn Dundee Centre",
+          "area": "City centre",
+          "why": "Straightforward midscale with parking near the V&A / city pins.",
+          "airport_shuttle": false,
+          "shuttle_note": "No EDI shuttle.",
+          "lat": 56.4598,
+          "lng": -2.9678,
+          "booking_url": "https://www.booking.com/searchresults.html?ss=Premier+Inn+Dundee+Centre",
+          "maps_url": "https://www.google.com/maps/search/Premier+Inn+Dundee+Centre/@56.4598,-2.9678,15z",
+          "photo_url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=900&q=80"
+        }
+      ]
+    },
+    {
+      "city": "Glasgow",
+      "airport": "GLA",
+      "role": "Nights 2–3 after evening ScotRail from EDI — no car in the city. Prefer centre hotels; star GLA-shuttle options only if you need an airport overnight.",
+      "hotels": [
+        {
+          "name": "Holiday Inn Express Glasgow Airport",
+          "area": "GLA terminal (walk)",
+          "why": "Starred for airport access — short walk to GLA; useful only if flying out of Glasgow, not for the city stay.",
+          "airport_shuttle": true,
+          "shuttle_note": "On-airport / walk-to-terminal; confirm any shuttle vs walk on booking.",
+          "lat": 55.8684,
+          "lng": -4.4315,
+          "booking_url": "https://www.booking.com/hotel/gb/holiday-inn-express-glasgow-airport.html",
+          "maps_url": "https://www.google.com/maps/search/Holiday+Inn+Express+Glasgow+Airport/@55.8684,-4.4315,15z",
+          "photo_url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          "name": "Glynhill Hotel & Spa",
+          "area": "Renfrew / GLA corridor",
+          "why": "Near GLA with parking packages that include long-stay + shuttle to terminal.",
+          "airport_shuttle": true,
+          "shuttle_note": "Shuttle typically via airport long-stay package — confirm with hotel.",
+          "lat": 55.8698,
+          "lng": -4.3925,
+          "booking_url": "https://www.booking.com/hotel/gb/glynhill.html",
+          "maps_url": "https://www.google.com/maps/search/Glynhill+Hotel+%26+Spa/@55.8698,-4.3925,15z",
+          "photo_url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          "name": "Kimpton Blythswood Square Hotel",
+          "area": "City centre",
+          "why": "Strong centre base for Glasgow pins after the EDI train — no car needed.",
+          "airport_shuttle": false,
+          "shuttle_note": "No hotel GLA shuttle; taxi or Airport Express bus.",
+          "lat": 55.8625,
+          "lng": -4.2618,
+          "booking_url": "https://www.booking.com/hotel/gb/kimpton-blythswood-square.html",
+          "maps_url": "https://www.google.com/maps/search/Kimpton+Blythswood+Square+Hotel/@55.8625,-4.2618,15z",
+          "photo_url": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=900&q=80"
+        },
+        {
+          "name": "CitizenM Glasgow",
+          "area": "City centre / Central Station",
+          "why": "Compact modern rooms near Central / Queen Street for day-3 walking.",
+          "airport_shuttle": false,
+          "shuttle_note": "No airport shuttle.",
+          "lat": 55.8653,
+          "lng": -4.2538,
+          "booking_url": "https://www.booking.com/hotel/gb/citizenm-glasgow.html",
+          "maps_url": "https://www.google.com/maps/search/CitizenM+Glasgow/@55.8653,-4.2538,15z",
+          "photo_url": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=900&q=80"
+        }
+      ]
+    }
+  ]
+}
