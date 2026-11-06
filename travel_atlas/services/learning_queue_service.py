@@ -12,16 +12,22 @@ _BAND_TOPICS: dict[str, list[tuple[str, str]]] = {
         ("general_travel", "Basic phrases"),
         ("market_food", "Food words"),
         ("transport", "Getting around"),
+        ("demeter_harvest", "Asking Demeter — stone mill & planting"),
+        ("hephaestus_craft", "Learning from Hephaestus — furniture craft"),
     ],
     "60": [
         ("market_food", "Convenience stores & markets"),
         ("transport", "Train etiquette"),
         ("temple_spirituality", "Temple / shrine manners"),
+        ("demeter_harvest", "Manifesting mango, cherry & tomatillos"),
+        ("hephaestus_craft", "Woodworking for your future home"),
     ],
     "30": [
         ("museum_history", "Museum phrases"),
         ("market_food", "Ordering food"),
         ("transport", "Transit tickets"),
+        ("demeter_harvest", "Harvest gratitude and soil ritual"),
+        ("hephaestus_craft", "Joinery and tool language"),
     ],
     "7": [
         ("general_travel", "Final phrase review"),
@@ -35,6 +41,8 @@ _BAND_TOPICS: dict[str, list[tuple[str, str]]] = {
     "any": [
         ("general_travel", "Starter phrases"),
         ("market_food", "Food words"),
+        ("demeter_harvest", "Asking Demeter — stone mill & planting"),
+        ("hephaestus_craft", "Learning from Hephaestus — furniture craft"),
     ],
 }
 
